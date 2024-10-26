@@ -1,0 +1,3168 @@
+{
+  "build": "py310h827c3e9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "et_xmlfile",
+    "python >=3.10,<3.11.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "extracted_package_dir": "D:\\soft\\anaconda3\\pkgs\\openpyxl-3.1.5-py310h827c3e9_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/INSTALLER",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/LICENCE.rst",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/METADATA",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/RECORD",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/REQUESTED",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/WHEEL",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/direct_url.json",
+    "Lib/site-packages/openpyxl-3.1.5.dist-info/top_level.txt",
+    "Lib/site-packages/openpyxl/__init__.py",
+    "Lib/site-packages/openpyxl/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/__pycache__/_constants.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/_constants.py",
+    "Lib/site-packages/openpyxl/cell/__init__.py",
+    "Lib/site-packages/openpyxl/cell/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/cell/__pycache__/_writer.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/cell/__pycache__/cell.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/cell/__pycache__/read_only.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/cell/__pycache__/rich_text.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/cell/__pycache__/text.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/cell/_writer.py",
+    "Lib/site-packages/openpyxl/cell/cell.py",
+    "Lib/site-packages/openpyxl/cell/read_only.py",
+    "Lib/site-packages/openpyxl/cell/rich_text.py",
+    "Lib/site-packages/openpyxl/cell/text.py",
+    "Lib/site-packages/openpyxl/chart/_3d.py",
+    "Lib/site-packages/openpyxl/chart/__init__.py",
+    "Lib/site-packages/openpyxl/chart/__pycache__/_3d.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/area_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/axis.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/bar_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/bubble_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/chartspace.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/data_source.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/descriptors.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/error_bar.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/label.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/layout.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/legend.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/line_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/marker.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/picture.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/pie_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/pivot.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/plotarea.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/print_settings.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/radar_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/reader.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/reference.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/scatter_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/series.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/series_factory.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/shapes.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/stock_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/surface_chart.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/text.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/title.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/trendline.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/__pycache__/updown_bars.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chart/_chart.py",
+    "Lib/site-packages/openpyxl/chart/area_chart.py",
+    "Lib/site-packages/openpyxl/chart/axis.py",
+    "Lib/site-packages/openpyxl/chart/bar_chart.py",
+    "Lib/site-packages/openpyxl/chart/bubble_chart.py",
+    "Lib/site-packages/openpyxl/chart/chartspace.py",
+    "Lib/site-packages/openpyxl/chart/data_source.py",
+    "Lib/site-packages/openpyxl/chart/descriptors.py",
+    "Lib/site-packages/openpyxl/chart/error_bar.py",
+    "Lib/site-packages/openpyxl/chart/label.py",
+    "Lib/site-packages/openpyxl/chart/layout.py",
+    "Lib/site-packages/openpyxl/chart/legend.py",
+    "Lib/site-packages/openpyxl/chart/line_chart.py",
+    "Lib/site-packages/openpyxl/chart/marker.py",
+    "Lib/site-packages/openpyxl/chart/picture.py",
+    "Lib/site-packages/openpyxl/chart/pie_chart.py",
+    "Lib/site-packages/openpyxl/chart/pivot.py",
+    "Lib/site-packages/openpyxl/chart/plotarea.py",
+    "Lib/site-packages/openpyxl/chart/print_settings.py",
+    "Lib/site-packages/openpyxl/chart/radar_chart.py",
+    "Lib/site-packages/openpyxl/chart/reader.py",
+    "Lib/site-packages/openpyxl/chart/reference.py",
+    "Lib/site-packages/openpyxl/chart/scatter_chart.py",
+    "Lib/site-packages/openpyxl/chart/series.py",
+    "Lib/site-packages/openpyxl/chart/series_factory.py",
+    "Lib/site-packages/openpyxl/chart/shapes.py",
+    "Lib/site-packages/openpyxl/chart/stock_chart.py",
+    "Lib/site-packages/openpyxl/chart/surface_chart.py",
+    "Lib/site-packages/openpyxl/chart/text.py",
+    "Lib/site-packages/openpyxl/chart/title.py",
+    "Lib/site-packages/openpyxl/chart/trendline.py",
+    "Lib/site-packages/openpyxl/chart/updown_bars.py",
+    "Lib/site-packages/openpyxl/chartsheet/__init__.py",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/chartsheet.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/custom.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/properties.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/protection.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/publish.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/relation.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/__pycache__/views.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/chartsheet/chartsheet.py",
+    "Lib/site-packages/openpyxl/chartsheet/custom.py",
+    "Lib/site-packages/openpyxl/chartsheet/properties.py",
+    "Lib/site-packages/openpyxl/chartsheet/protection.py",
+    "Lib/site-packages/openpyxl/chartsheet/publish.py",
+    "Lib/site-packages/openpyxl/chartsheet/relation.py",
+    "Lib/site-packages/openpyxl/chartsheet/views.py",
+    "Lib/site-packages/openpyxl/comments/__init__.py",
+    "Lib/site-packages/openpyxl/comments/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/comments/__pycache__/author.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/comments/__pycache__/comment_sheet.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/comments/__pycache__/comments.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/comments/__pycache__/shape_writer.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/comments/author.py",
+    "Lib/site-packages/openpyxl/comments/comment_sheet.py",
+    "Lib/site-packages/openpyxl/comments/comments.py",
+    "Lib/site-packages/openpyxl/comments/shape_writer.py",
+    "Lib/site-packages/openpyxl/compat/__init__.py",
+    "Lib/site-packages/openpyxl/compat/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/compat/__pycache__/abc.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/compat/__pycache__/numbers.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/compat/__pycache__/product.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/compat/__pycache__/singleton.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/compat/__pycache__/strings.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/compat/abc.py",
+    "Lib/site-packages/openpyxl/compat/numbers.py",
+    "Lib/site-packages/openpyxl/compat/product.py",
+    "Lib/site-packages/openpyxl/compat/singleton.py",
+    "Lib/site-packages/openpyxl/compat/strings.py",
+    "Lib/site-packages/openpyxl/descriptors/__init__.py",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/base.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/container.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/excel.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/namespace.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/nested.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/sequence.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/serialisable.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/__pycache__/slots.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/descriptors/base.py",
+    "Lib/site-packages/openpyxl/descriptors/container.py",
+    "Lib/site-packages/openpyxl/descriptors/excel.py",
+    "Lib/site-packages/openpyxl/descriptors/namespace.py",
+    "Lib/site-packages/openpyxl/descriptors/nested.py",
+    "Lib/site-packages/openpyxl/descriptors/sequence.py",
+    "Lib/site-packages/openpyxl/descriptors/serialisable.py",
+    "Lib/site-packages/openpyxl/descriptors/slots.py",
+    "Lib/site-packages/openpyxl/drawing/__init__.py",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/colors.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/connector.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/drawing.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/effect.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/fill.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/geometry.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/graphic.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/image.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/line.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/picture.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/properties.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/relation.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/spreadsheet_drawing.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/text.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/__pycache__/xdr.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/drawing/colors.py",
+    "Lib/site-packages/openpyxl/drawing/connector.py",
+    "Lib/site-packages/openpyxl/drawing/drawing.py",
+    "Lib/site-packages/openpyxl/drawing/effect.py",
+    "Lib/site-packages/openpyxl/drawing/fill.py",
+    "Lib/site-packages/openpyxl/drawing/geometry.py",
+    "Lib/site-packages/openpyxl/drawing/graphic.py",
+    "Lib/site-packages/openpyxl/drawing/image.py",
+    "Lib/site-packages/openpyxl/drawing/line.py",
+    "Lib/site-packages/openpyxl/drawing/picture.py",
+    "Lib/site-packages/openpyxl/drawing/properties.py",
+    "Lib/site-packages/openpyxl/drawing/relation.py",
+    "Lib/site-packages/openpyxl/drawing/spreadsheet_drawing.py",
+    "Lib/site-packages/openpyxl/drawing/text.py",
+    "Lib/site-packages/openpyxl/drawing/xdr.py",
+    "Lib/site-packages/openpyxl/formatting/__init__.py",
+    "Lib/site-packages/openpyxl/formatting/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/formatting/__pycache__/formatting.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/formatting/__pycache__/rule.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/formatting/formatting.py",
+    "Lib/site-packages/openpyxl/formatting/rule.py",
+    "Lib/site-packages/openpyxl/formula/__init__.py",
+    "Lib/site-packages/openpyxl/formula/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/formula/__pycache__/tokenizer.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/formula/__pycache__/translate.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/formula/tokenizer.py",
+    "Lib/site-packages/openpyxl/formula/translate.py",
+    "Lib/site-packages/openpyxl/packaging/__init__.py",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/core.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/custom.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/extended.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/interface.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/manifest.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/relationship.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/__pycache__/workbook.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/packaging/core.py",
+    "Lib/site-packages/openpyxl/packaging/custom.py",
+    "Lib/site-packages/openpyxl/packaging/extended.py",
+    "Lib/site-packages/openpyxl/packaging/interface.py",
+    "Lib/site-packages/openpyxl/packaging/manifest.py",
+    "Lib/site-packages/openpyxl/packaging/relationship.py",
+    "Lib/site-packages/openpyxl/packaging/workbook.py",
+    "Lib/site-packages/openpyxl/pivot/__init__.py",
+    "Lib/site-packages/openpyxl/pivot/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/pivot/__pycache__/cache.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/pivot/__pycache__/fields.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/pivot/__pycache__/record.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/pivot/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/pivot/cache.py",
+    "Lib/site-packages/openpyxl/pivot/fields.py",
+    "Lib/site-packages/openpyxl/pivot/record.py",
+    "Lib/site-packages/openpyxl/pivot/table.py",
+    "Lib/site-packages/openpyxl/reader/__init__.py",
+    "Lib/site-packages/openpyxl/reader/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/reader/__pycache__/drawings.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/reader/__pycache__/excel.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/reader/__pycache__/strings.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/reader/__pycache__/workbook.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/reader/drawings.py",
+    "Lib/site-packages/openpyxl/reader/excel.py",
+    "Lib/site-packages/openpyxl/reader/strings.py",
+    "Lib/site-packages/openpyxl/reader/workbook.py",
+    "Lib/site-packages/openpyxl/styles/__init__.py",
+    "Lib/site-packages/openpyxl/styles/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/alignment.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/borders.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/builtins.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/cell_style.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/colors.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/differential.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/fills.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/fonts.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/named_styles.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/numbers.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/protection.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/proxy.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/styleable.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/stylesheet.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/styles/alignment.py",
+    "Lib/site-packages/openpyxl/styles/borders.py",
+    "Lib/site-packages/openpyxl/styles/builtins.py",
+    "Lib/site-packages/openpyxl/styles/cell_style.py",
+    "Lib/site-packages/openpyxl/styles/colors.py",
+    "Lib/site-packages/openpyxl/styles/differential.py",
+    "Lib/site-packages/openpyxl/styles/fills.py",
+    "Lib/site-packages/openpyxl/styles/fonts.py",
+    "Lib/site-packages/openpyxl/styles/named_styles.py",
+    "Lib/site-packages/openpyxl/styles/numbers.py",
+    "Lib/site-packages/openpyxl/styles/protection.py",
+    "Lib/site-packages/openpyxl/styles/proxy.py",
+    "Lib/site-packages/openpyxl/styles/styleable.py",
+    "Lib/site-packages/openpyxl/styles/stylesheet.py",
+    "Lib/site-packages/openpyxl/styles/table.py",
+    "Lib/site-packages/openpyxl/utils/__init__.py",
+    "Lib/site-packages/openpyxl/utils/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/bound_dictionary.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/cell.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/dataframe.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/datetime.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/escape.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/exceptions.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/formulas.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/indexed_list.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/inference.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/protection.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/__pycache__/units.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/utils/bound_dictionary.py",
+    "Lib/site-packages/openpyxl/utils/cell.cp310-win_amd64.pyd",
+    "Lib/site-packages/openpyxl/utils/cell.py",
+    "Lib/site-packages/openpyxl/utils/dataframe.py",
+    "Lib/site-packages/openpyxl/utils/datetime.py",
+    "Lib/site-packages/openpyxl/utils/escape.py",
+    "Lib/site-packages/openpyxl/utils/exceptions.py",
+    "Lib/site-packages/openpyxl/utils/formulas.py",
+    "Lib/site-packages/openpyxl/utils/indexed_list.py",
+    "Lib/site-packages/openpyxl/utils/inference.py",
+    "Lib/site-packages/openpyxl/utils/protection.py",
+    "Lib/site-packages/openpyxl/utils/units.py",
+    "Lib/site-packages/openpyxl/workbook/__init__.py",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/_writer.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/child.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/defined_name.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/external_reference.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/function_group.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/properties.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/protection.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/smart_tags.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/views.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/web.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/__pycache__/workbook.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/_writer.py",
+    "Lib/site-packages/openpyxl/workbook/child.py",
+    "Lib/site-packages/openpyxl/workbook/defined_name.py",
+    "Lib/site-packages/openpyxl/workbook/external_link/__init__.py",
+    "Lib/site-packages/openpyxl/workbook/external_link/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/external_link/__pycache__/external.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/workbook/external_link/external.py",
+    "Lib/site-packages/openpyxl/workbook/external_reference.py",
+    "Lib/site-packages/openpyxl/workbook/function_group.py",
+    "Lib/site-packages/openpyxl/workbook/properties.py",
+    "Lib/site-packages/openpyxl/workbook/protection.py",
+    "Lib/site-packages/openpyxl/workbook/smart_tags.py",
+    "Lib/site-packages/openpyxl/workbook/views.py",
+    "Lib/site-packages/openpyxl/workbook/web.py",
+    "Lib/site-packages/openpyxl/workbook/workbook.py",
+    "Lib/site-packages/openpyxl/worksheet/__init__.py",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/_read_only.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/_reader.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/_write_only.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/_writer.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/cell_range.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/cell_watch.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/controls.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/copier.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/custom.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/datavalidation.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/dimensions.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/drawing.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/errors.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/filters.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/formula.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/header_footer.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/hyperlink.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/merge.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/ole.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/page.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/pagebreak.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/picture.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/print_settings.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/properties.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/protection.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/related.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/scenario.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/smart_tag.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/table.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/views.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/__pycache__/worksheet.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/worksheet/_read_only.py",
+    "Lib/site-packages/openpyxl/worksheet/_reader.cp310-win_amd64.pyd",
+    "Lib/site-packages/openpyxl/worksheet/_reader.py",
+    "Lib/site-packages/openpyxl/worksheet/_write_only.py",
+    "Lib/site-packages/openpyxl/worksheet/_writer.cp310-win_amd64.pyd",
+    "Lib/site-packages/openpyxl/worksheet/_writer.py",
+    "Lib/site-packages/openpyxl/worksheet/cell_range.py",
+    "Lib/site-packages/openpyxl/worksheet/cell_watch.py",
+    "Lib/site-packages/openpyxl/worksheet/controls.py",
+    "Lib/site-packages/openpyxl/worksheet/copier.py",
+    "Lib/site-packages/openpyxl/worksheet/custom.py",
+    "Lib/site-packages/openpyxl/worksheet/datavalidation.py",
+    "Lib/site-packages/openpyxl/worksheet/dimensions.py",
+    "Lib/site-packages/openpyxl/worksheet/drawing.py",
+    "Lib/site-packages/openpyxl/worksheet/errors.py",
+    "Lib/site-packages/openpyxl/worksheet/filters.py",
+    "Lib/site-packages/openpyxl/worksheet/formula.py",
+    "Lib/site-packages/openpyxl/worksheet/header_footer.py",
+    "Lib/site-packages/openpyxl/worksheet/hyperlink.py",
+    "Lib/site-packages/openpyxl/worksheet/merge.py",
+    "Lib/site-packages/openpyxl/worksheet/ole.py",
+    "Lib/site-packages/openpyxl/worksheet/page.py",
+    "Lib/site-packages/openpyxl/worksheet/pagebreak.py",
+    "Lib/site-packages/openpyxl/worksheet/picture.py",
+    "Lib/site-packages/openpyxl/worksheet/print_settings.py",
+    "Lib/site-packages/openpyxl/worksheet/properties.py",
+    "Lib/site-packages/openpyxl/worksheet/protection.py",
+    "Lib/site-packages/openpyxl/worksheet/related.py",
+    "Lib/site-packages/openpyxl/worksheet/scenario.py",
+    "Lib/site-packages/openpyxl/worksheet/smart_tag.py",
+    "Lib/site-packages/openpyxl/worksheet/table.py",
+    "Lib/site-packages/openpyxl/worksheet/views.py",
+    "Lib/site-packages/openpyxl/worksheet/worksheet.py",
+    "Lib/site-packages/openpyxl/writer/__init__.py",
+    "Lib/site-packages/openpyxl/writer/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/writer/__pycache__/excel.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/writer/__pycache__/theme.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/writer/excel.py",
+    "Lib/site-packages/openpyxl/writer/theme.py",
+    "Lib/site-packages/openpyxl/xml/__init__.py",
+    "Lib/site-packages/openpyxl/xml/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/xml/__pycache__/constants.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/xml/__pycache__/functions.cpython-310.pyc",
+    "Lib/site-packages/openpyxl/xml/constants.py",
+    "Lib/site-packages/openpyxl/xml/functions.py"
+  ],
+  "fn": "openpyxl-3.1.5-py310h827c3e9_0.conda",
+  "legacy_bz2_md5": "99eaa56b78c9081463309bda32c2d45f",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\soft\\anaconda3\\pkgs\\openpyxl-3.1.5-py310h827c3e9_0",
+    "type": 1
+  },
+  "md5": "7dc5b92b3127d6eeef6ab627411157a3",
+  "name": "openpyxl",
+  "package_tarball_full_path": "D:\\soft\\anaconda3\\pkgs\\openpyxl-3.1.5-py310h827c3e9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/LICENCE.rst",
+        "path_type": "hardlink",
+        "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+        "sha256_in_prefix": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2faca0f5d16845e698e553826f6b9fc33e2c7deaa32b4f5a1fd900e46a3e62e9",
+        "sha256_in_prefix": "2faca0f5d16845e698e553826f6b9fc33e2c7deaa32b4f5a1fd900e46a3e62e9",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "672aa09754fa68339a8d486d7e7e447e625cb72bf9aa9ec62d526969ad3d2d95",
+        "sha256_in_prefix": "672aa09754fa68339a8d486d7e7e447e625cb72bf9aa9ec62d526969ad3d2d95",
+        "size_in_bytes": 28154
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "94ee82aad2c70808b7f17dc4b356b84759408d916f374d7420c442168d92ecc7",
+        "sha256_in_prefix": "94ee82aad2c70808b7f17dc4b356b84759408d916f374d7420c442168d92ecc7",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3cc3a4035dafa6a9ac3a0e29920b4a5d4d0d2521f60c5859507a0f8b1da47373",
+        "sha256_in_prefix": "3cc3a4035dafa6a9ac3a0e29920b4a5d4d0d2521f60c5859507a0f8b1da47373",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl-3.1.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "98a24ee50140b14103b49fdcf7b17e21b995b476040f29aa0fb7795f450b915b",
+        "sha256_in_prefix": "98a24ee50140b14103b49fdcf7b17e21b995b476040f29aa0fb7795f450b915b",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b36b17729f138575c7b3035287e52e422e411eca1ab2e7335328cd373d15ba97",
+        "sha256_in_prefix": "b36b17729f138575c7b3035287e52e422e411eca1ab2e7335328cd373d15ba97",
+        "size_in_bytes": 603
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbb0b40d8f3f51127263ff671f3e609448f6c51808e9c7667c5ac20d43670033",
+        "sha256_in_prefix": "bbb0b40d8f3f51127263ff671f3e609448f6c51808e9c7667c5ac20d43670033",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/__pycache__/_constants.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e74d87f0ddd3d79cd47b954c7fb2e83a2c2e6338cda4aec310ac5b26b7a0873",
+        "sha256_in_prefix": "3e74d87f0ddd3d79cd47b954c7fb2e83a2c2e6338cda4aec310ac5b26b7a0873",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "ae139e43ac0d1fa8f0ef71b8236e3656d6e6c8cf1fbdd355c0eb0e8c9949e935",
+        "sha256_in_prefix": "ae139e43ac0d1fa8f0ef71b8236e3656d6e6c8cf1fbdd355c0eb0e8c9949e935",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "39737314547d765c545e2b965f229255044989085915e97efd1412de61cd9eb4",
+        "sha256_in_prefix": "39737314547d765c545e2b965f229255044989085915e97efd1412de61cd9eb4",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "91d44e188245caf65934e3a955999513dc91e60e69b314ea2cb77040aca0e175",
+        "sha256_in_prefix": "91d44e188245caf65934e3a955999513dc91e60e69b314ea2cb77040aca0e175",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__pycache__/_writer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad9bbfa1703b58dafea9dd5e49346627a6a0931fac4dab1439f343d99c99316b",
+        "sha256_in_prefix": "ad9bbfa1703b58dafea9dd5e49346627a6a0931fac4dab1439f343d99c99316b",
+        "size_in_bytes": 2973
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__pycache__/cell.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "93defb660791a841cfce4c6e964d06d97deff07f85f9587a93e89e149d8d6028",
+        "sha256_in_prefix": "93defb660791a841cfce4c6e964d06d97deff07f85f9587a93e89e149d8d6028",
+        "size_in_bytes": 8526
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__pycache__/read_only.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec2775fbe0e59431d237916fc4ae940d58c75415159a17302c98a3442fdf2722",
+        "sha256_in_prefix": "ec2775fbe0e59431d237916fc4ae940d58c75415159a17302c98a3442fdf2722",
+        "size_in_bytes": 4205
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__pycache__/rich_text.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad6f02cbf404e1b5e7026fccfc73824e8ba5d41e9ba9d6ff35326098d995f6db",
+        "sha256_in_prefix": "ad6f02cbf404e1b5e7026fccfc73824e8ba5d41e9ba9d6ff35326098d995f6db",
+        "size_in_bytes": 6388
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/__pycache__/text.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e83a9de582402a108834c6c3ab64ddb14a9c3ada1f7eed250a66b28345ceddf",
+        "sha256_in_prefix": "3e83a9de582402a108834c6c3ab64ddb14a9c3ada1f7eed250a66b28345ceddf",
+        "size_in_bytes": 3974
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/_writer.py",
+        "path_type": "hardlink",
+        "sha256": "dc8e962ca1091ae15ef2b3a3c5d015b834f8b19623718a39efeeaf7a519ea5d4",
+        "sha256_in_prefix": "dc8e962ca1091ae15ef2b3a3c5d015b834f8b19623718a39efeeaf7a519ea5d4",
+        "size_in_bytes": 4015
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/cell.py",
+        "path_type": "hardlink",
+        "sha256": "85526c302f64240c716ff0aca49941af00eddaacdf71c3ba6037cf1cadc10424",
+        "sha256_in_prefix": "85526c302f64240c716ff0aca49941af00eddaacdf71c3ba6037cf1cadc10424",
+        "size_in_bytes": 8922
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/read_only.py",
+        "path_type": "hardlink",
+        "sha256": "0295e4a1f9942b94084acb93819be664ab14f0fb9f490b6a7b6c666164e02e77",
+        "sha256_in_prefix": "0295e4a1f9942b94084acb93819be664ab14f0fb9f490b6a7b6c666164e02e77",
+        "size_in_bytes": 3097
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/rich_text.py",
+        "path_type": "hardlink",
+        "sha256": "b80666181edb6035276a71c8d2f26629b7d217cae2b88612e42c25554ff7fdf3",
+        "sha256_in_prefix": "b80666181edb6035276a71c8d2f26629b7d217cae2b88612e42c25554ff7fdf3",
+        "size_in_bytes": 5628
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/cell/text.py",
+        "path_type": "hardlink",
+        "sha256": "69c53a05940d4a6571e1b0573e015abe8c667e83db558ae6ff3b69d5b19e3a67",
+        "sha256_in_prefix": "69c53a05940d4a6571e1b0573e015abe8c667e83db558ae6ff3b69d5b19e3a67",
+        "size_in_bytes": 4367
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/_3d.py",
+        "path_type": "hardlink",
+        "sha256": "49d9b44cda571d736838b53088e49c72fef2170ade97ffab8d0864ac3a80005e",
+        "sha256_in_prefix": "49d9b44cda571d736838b53088e49c72fef2170ade97ffab8d0864ac3a80005e",
+        "size_in_bytes": 3104
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a0e1808dd41dc91f49644bbb628990a8855000e75c7fa5e8c674032ec5a2356",
+        "sha256_in_prefix": "6a0e1808dd41dc91f49644bbb628990a8855000e75c7fa5e8c674032ec5a2356",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/_3d.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "04b6844c6f5040ae408e5b096363d4134b01279481b08ecf90d867e380ce820c",
+        "sha256_in_prefix": "04b6844c6f5040ae408e5b096363d4134b01279481b08ecf90d867e380ce820c",
+        "size_in_bytes": 2613
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "efdb5b592a51fedffb37deed5fc792acc283e948f69157e58c2d6c9a5b167e74",
+        "sha256_in_prefix": "efdb5b592a51fedffb37deed5fc792acc283e948f69157e58c2d6c9a5b167e74",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ff2c50cf8957473b8e1c0e52b69c4baf683afe3049291aa35513629518bdb6e",
+        "sha256_in_prefix": "7ff2c50cf8957473b8e1c0e52b69c4baf683afe3049291aa35513629518bdb6e",
+        "size_in_bytes": 5973
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/area_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cdb8cc1069ad93139504defc173867fddcd6e84b6dbdc5712e64c6618027da1",
+        "sha256_in_prefix": "4cdb8cc1069ad93139504defc173867fddcd6e84b6dbdc5712e64c6618027da1",
+        "size_in_bytes": 2819
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/axis.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9674fc6047f4faf479924e7006895e037ba952c8cd16ad74feba7678bbfe8dc4",
+        "sha256_in_prefix": "9674fc6047f4faf479924e7006895e037ba952c8cd16ad74feba7678bbfe8dc4",
+        "size_in_bytes": 8720
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/bar_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca86bd9a6216aa08b06d3cfdd9af475d4b8815b99ab8463e9108eedd951be82f",
+        "sha256_in_prefix": "ca86bd9a6216aa08b06d3cfdd9af475d4b8815b99ab8463e9108eedd951be82f",
+        "size_in_bytes": 3550
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/bubble_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "19b77a0e612ef1a79d9fdc81b070f7d32814975ea1352b2b643d7a2eb94e89cc",
+        "sha256_in_prefix": "19b77a0e612ef1a79d9fdc81b070f7d32814975ea1352b2b643d7a2eb94e89cc",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/chartspace.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3525e6725cef1e8bad194b6db524206bc3f2f486b2958ab9e5a69b6980bfa805",
+        "sha256_in_prefix": "3525e6725cef1e8bad194b6db524206bc3f2f486b2958ab9e5a69b6980bfa805",
+        "size_in_bytes": 4557
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/data_source.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ea9c35bff3f7fc078004956db8abbd9879bc3eb29b5102d4cb7d117dc7ba9ee",
+        "sha256_in_prefix": "4ea9c35bff3f7fc078004956db8abbd9879bc3eb29b5102d4cb7d117dc7ba9ee",
+        "size_in_bytes": 6043
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/descriptors.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6929f7e0e9210d662dd387a90fa902c69103b923184d793ae2e366f089324e6e",
+        "sha256_in_prefix": "6929f7e0e9210d662dd387a90fa902c69103b923184d793ae2e366f089324e6e",
+        "size_in_bytes": 1145
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/error_bar.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce2623f1f9cd1eeb8250efd538772ee71369bbc9401a1bddfcfe5e60737df0b0",
+        "sha256_in_prefix": "ce2623f1f9cd1eeb8250efd538772ee71369bbc9401a1bddfcfe5e60737df0b0",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/label.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "501cd07f2d66a58666a41b4cfe0824b238e4d6edcbd70c54e356c62412c0f8f1",
+        "sha256_in_prefix": "501cd07f2d66a58666a41b4cfe0824b238e4d6edcbd70c54e356c62412c0f8f1",
+        "size_in_bytes": 2978
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/layout.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2ccf3efb42235f0c479f99e608604453cc6479b302250b8593be97f0b1e3fbc",
+        "sha256_in_prefix": "c2ccf3efb42235f0c479f99e608604453cc6479b302250b8593be97f0b1e3fbc",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/legend.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb6139c161161d2c2ffa1174608dd46cb530e9038a4c3d9afdf028d3edfc3abf",
+        "sha256_in_prefix": "cb6139c161161d2c2ffa1174608dd46cb530e9038a4c3d9afdf028d3edfc3abf",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/line_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6bb1fa3484f815b0e54dbf09d6e0180688ea471d86af8b1c01e8b30ff16db8c",
+        "sha256_in_prefix": "e6bb1fa3484f815b0e54dbf09d6e0180688ea471d86af8b1c01e8b30ff16db8c",
+        "size_in_bytes": 3190
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/marker.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "06f840196a8ea852ed85148db1c031e1d81468646b283512491145f332e2ddb9",
+        "sha256_in_prefix": "06f840196a8ea852ed85148db1c031e1d81468646b283512491145f332e2ddb9",
+        "size_in_bytes": 2165
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/picture.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec8d2fad6d4a00ccc28c468a3c55e4660e3c14acb387ee52d933a4fe50cadf94",
+        "sha256_in_prefix": "ec8d2fad6d4a00ccc28c468a3c55e4660e3c14acb387ee52d933a4fe50cadf94",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/pie_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "800c6453b95cf1f894838aeefb164f08c081ffbe67e3cfb088d20d45240bff00",
+        "sha256_in_prefix": "800c6453b95cf1f894838aeefb164f08c081ffbe67e3cfb088d20d45240bff00",
+        "size_in_bytes": 4589
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/pivot.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "deeabc4f9d2928214d16e11a8589af2f448613d063e3e1762bcfbb2a392bf186",
+        "sha256_in_prefix": "deeabc4f9d2928214d16e11a8589af2f448613d063e3e1762bcfbb2a392bf186",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/plotarea.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ce348703c9f7fcc11c14cc15a0b117870edc718d7c71062ed2a85ce8af2c82e",
+        "sha256_in_prefix": "6ce348703c9f7fcc11c14cc15a0b117870edc718d7c71062ed2a85ce8af2c82e",
+        "size_in_bytes": 4615
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/print_settings.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "339db3a29beb286954c19fffe8a5d5a1f37595491dfed85e7dcccb131c73ac0e",
+        "sha256_in_prefix": "339db3a29beb286954c19fffe8a5d5a1f37595491dfed85e7dcccb131c73ac0e",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/radar_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5991f798262eec719313bd223d0c41533ae486b2f2094383a8b1517191c4e3e7",
+        "sha256_in_prefix": "5991f798262eec719313bd223d0c41533ae486b2f2094383a8b1517191c4e3e7",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/reader.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4af584ed45b60173c0299b0ddbfd24018645c7ad0e3b1eeecdfdae20432b872b",
+        "sha256_in_prefix": "4af584ed45b60173c0299b0ddbfd24018645c7ad0e3b1eeecdfdae20432b872b",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/reference.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "208e1e15de42682d5f03c67b2dfaaefc26fc75c6d52140bf6164cc403343bd3b",
+        "sha256_in_prefix": "208e1e15de42682d5f03c67b2dfaaefc26fc75c6d52140bf6164cc403343bd3b",
+        "size_in_bytes": 3251
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/scatter_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "86c1c6ee20a1adcfc7b6781461f30edd20529c6a8503622f82255ad37031dbbf",
+        "sha256_in_prefix": "86c1c6ee20a1adcfc7b6781461f30edd20529c6a8503622f82255ad37031dbbf",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/series.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d810566de0dc113c5ebf65ec467592739ee7ed8e8ffb5a6f2ec0e19af624fe4b",
+        "sha256_in_prefix": "d810566de0dc113c5ebf65ec467592739ee7ed8e8ffb5a6f2ec0e19af624fe4b",
+        "size_in_bytes": 4318
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/series_factory.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "79675f906addfd78bf42c0408bfb6ddd607e4cbeae9b975b15cfa018b69398f0",
+        "sha256_in_prefix": "79675f906addfd78bf42c0408bfb6ddd607e4cbeae9b975b15cfa018b69398f0",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/shapes.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c479e8253f0c2f686b54d11144785611a3fa60b4dec2b106e9511bcc257bd1b",
+        "sha256_in_prefix": "3c479e8253f0c2f686b54d11144785611a3fa60b4dec2b106e9511bcc257bd1b",
+        "size_in_bytes": 2274
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/stock_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d43b2ba59772a95fbe8722b8ea3a7ca4da8823c4ed84f0f5d8c128406cae99c0",
+        "sha256_in_prefix": "d43b2ba59772a95fbe8722b8ea3a7ca4da8823c4ed84f0f5d8c128406cae99c0",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/surface_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b27240004169a1789c6972803dfa5cc5e943e8cfdec436da531b8f8caa76797b",
+        "sha256_in_prefix": "b27240004169a1789c6972803dfa5cc5e943e8cfdec436da531b8f8caa76797b",
+        "size_in_bytes": 3321
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/text.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a4881c192139c4f93e1ff23bb07d4ff40e480f76aec3bfb852466249b3d5b88",
+        "sha256_in_prefix": "9a4881c192139c4f93e1ff23bb07d4ff40e480f76aec3bfb852466249b3d5b88",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/title.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "063b91471c8b393fd74fb0cee88f6917897fee28210c388f674344ce4ffff90e",
+        "sha256_in_prefix": "063b91471c8b393fd74fb0cee88f6917897fee28210c388f674344ce4ffff90e",
+        "size_in_bytes": 2288
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/trendline.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "deac069b8aa363cb32fd1de2b56e86cb0bfa648bdf01c84f18e526a844285f6e",
+        "sha256_in_prefix": "deac069b8aa363cb32fd1de2b56e86cb0bfa648bdf01c84f18e526a844285f6e",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/__pycache__/updown_bars.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "088a46c72a400e880dd91f9aad3742b5484e2c3fac584a90b13b41bf1d327322",
+        "sha256_in_prefix": "088a46c72a400e880dd91f9aad3742b5484e2c3fac584a90b13b41bf1d327322",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/_chart.py",
+        "path_type": "hardlink",
+        "sha256": "8f9c67ea6418999e04ef2d95d57bf1d63c215f6fceebc329fbccde5d1b5e4bb1",
+        "sha256_in_prefix": "8f9c67ea6418999e04ef2d95d57bf1d63c215f6fceebc329fbccde5d1b5e4bb1",
+        "size_in_bytes": 5746
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/area_chart.py",
+        "path_type": "hardlink",
+        "sha256": "b91383ddf76eb3ac83d531aef3b8f8cfb2ad3841fbb48fb76793452bbdf0c20c",
+        "sha256_in_prefix": "b91383ddf76eb3ac83d531aef3b8f8cfb2ad3841fbb48fb76793452bbdf0c20c",
+        "size_in_bytes": 2890
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/axis.py",
+        "path_type": "hardlink",
+        "sha256": "ca89a6cb9ab699058a9a62d1a2e581a629a20590c13352be50a008c02c0a0cd7",
+        "sha256_in_prefix": "ca89a6cb9ab699058a9a62d1a2e581a629a20590c13352be50a008c02c0a0cd7",
+        "size_in_bytes": 12580
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "fd340795e313de049ae81d4190a0ff1642c572ff0b45aa221dba72db27e52cee",
+        "sha256_in_prefix": "fd340795e313de049ae81d4190a0ff1642c572ff0b45aa221dba72db27e52cee",
+        "size_in_bytes": 4142
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/bubble_chart.py",
+        "path_type": "hardlink",
+        "sha256": "28bed56581722c3a40f0c0be205b5101420ddbadb12ba3338d4e350eb4958296",
+        "sha256_in_prefix": "28bed56581722c3a40f0c0be205b5101420ddbadb12ba3338d4e350eb4958296",
+        "size_in_bytes": 2004
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/chartspace.py",
+        "path_type": "hardlink",
+        "sha256": "3ee3c606c55ba4ae496a06c1ed25a0a78270750b53ad9cc89bc99fde47c602e6",
+        "sha256_in_prefix": "3ee3c606c55ba4ae496a06c1ed25a0a78270750b53ad9cc89bc99fde47c602e6",
+        "size_in_bytes": 6069
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/data_source.py",
+        "path_type": "hardlink",
+        "sha256": "180b96a02389e24ed164d259919724d33b7ff83e547c3130ab0437343e3eb37e",
+        "sha256_in_prefix": "180b96a02389e24ed164d259919724d33b7ff83e547c3130ab0437343e3eb37e",
+        "size_in_bytes": 5782
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/descriptors.py",
+        "path_type": "hardlink",
+        "sha256": "ba3faaa6dc0a3817a0ed4e7104de10250d8ec10bc543ba389f978c5d72164bb3",
+        "sha256_in_prefix": "ba3faaa6dc0a3817a0ed4e7104de10250d8ec10bc543ba389f978c5d72164bb3",
+        "size_in_bytes": 736
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/error_bar.py",
+        "path_type": "hardlink",
+        "sha256": "192fcbecf8b228d9c9547bd0a86da12f1116db7ee280b2c26ad08d0bec463319",
+        "sha256_in_prefix": "192fcbecf8b228d9c9547bd0a86da12f1116db7ee280b2c26ad08d0bec463319",
+        "size_in_bytes": 1832
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/label.py",
+        "path_type": "hardlink",
+        "sha256": "223bc8f826634d8f3276853350e8a171bc68456892a456ff8a90fa0b623c3eee",
+        "sha256_in_prefix": "223bc8f826634d8f3276853350e8a171bc68456892a456ff8a90fa0b623c3eee",
+        "size_in_bytes": 4133
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/layout.py",
+        "path_type": "hardlink",
+        "sha256": "4076a4a7f08872836ebe3c9932c436a7fa8fe380c842ce1aaaecbbca59fde093",
+        "sha256_in_prefix": "4076a4a7f08872836ebe3c9932c436a7fa8fe380c842ce1aaaecbbca59fde093",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/legend.py",
+        "path_type": "hardlink",
+        "sha256": "88f33270e8580c0558774e4e53f40307e1926af770ff52fd08cb892044cea062",
+        "sha256_in_prefix": "88f33270e8580c0558774e4e53f40307e1926af770ff52fd08cb892044cea062",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/line_chart.py",
+        "path_type": "hardlink",
+        "sha256": "ead0320c2cc58ae88116e5034d68507a91fcc550b1dace7b947f79d5c11cc27d",
+        "sha256_in_prefix": "ead0320c2cc58ae88116e5034d68507a91fcc550b1dace7b947f79d5c11cc27d",
+        "size_in_bytes": 3951
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/marker.py",
+        "path_type": "hardlink",
+        "sha256": "91fc9b324b212b7a9e7ce516ece5fe3acd2f7e5e4e0977e0f0ccadc070b68bec",
+        "sha256_in_prefix": "91fc9b324b212b7a9e7ce516ece5fe3acd2f7e5e4e0977e0f0ccadc070b68bec",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/picture.py",
+        "path_type": "hardlink",
+        "sha256": "43878135030a4031d1f754673dceed33e61955d7275a771e75495f6a08faee09",
+        "sha256_in_prefix": "43878135030a4031d1f754673dceed33e61955d7275a771e75495f6a08faee09",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/pie_chart.py",
+        "path_type": "hardlink",
+        "sha256": "50ebe48eb06935dfeb4feaef29ca4f79577d74af842dd3086878c0504afaa0df",
+        "sha256_in_prefix": "50ebe48eb06935dfeb4feaef29ca4f79577d74af842dd3086878c0504afaa0df",
+        "size_in_bytes": 4793
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/pivot.py",
+        "path_type": "hardlink",
+        "sha256": "f645439a7c67474b90450f966e5eaac3c79ec3d2c686aa2668305a5ea406658e",
+        "sha256_in_prefix": "f645439a7c67474b90450f966e5eaac3c79ec3d2c686aa2668305a5ea406658e",
+        "size_in_bytes": 1741
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/plotarea.py",
+        "path_type": "hardlink",
+        "sha256": "7a6ef2a2b5c5cfd4a626bbaa391e0f9feda8123d12bb8ae7cf235ce5ed0867f5",
+        "sha256_in_prefix": "7a6ef2a2b5c5cfd4a626bbaa391e0f9feda8123d12bb8ae7cf235ce5ed0867f5",
+        "size_in_bytes": 5805
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/print_settings.py",
+        "path_type": "hardlink",
+        "sha256": "53007a2a7eb190b4417a35d2725faeb45f1d90d855ecb9b72df93b002a5b460b",
+        "sha256_in_prefix": "53007a2a7eb190b4417a35d2725faeb45f1d90d855ecb9b72df93b002a5b460b",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/radar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "f772356357665d9e98d05d55297cfd237c75b9f830ca004e75b3d9ba64799f7b",
+        "sha256_in_prefix": "f772356357665d9e98d05d55297cfd237c75b9f830ca004e75b3d9ba64799f7b",
+        "size_in_bytes": 1521
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/reader.py",
+        "path_type": "hardlink",
+        "sha256": "a100fedbda3148b5b6cb35ddc97361cd060d5e033ae18de455238892b3d90ae5",
+        "sha256_in_prefix": "a100fedbda3148b5b6cb35ddc97361cd060d5e033ae18de455238892b3d90ae5",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/reference.py",
+        "path_type": "hardlink",
+        "sha256": "3774f8a98307f4156bb5b0d188a219cfea86bcf01d7eab964c62f45cac43f46f",
+        "sha256_in_prefix": "3774f8a98307f4156bb5b0d188a219cfea86bcf01d7eab964c62f45cac43f46f",
+        "size_in_bytes": 3098
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/scatter_chart.py",
+        "path_type": "hardlink",
+        "sha256": "24c537da38f14e3eedc4f2764de6c11cf4b951c32c44756a2f3fe9b27376619b",
+        "sha256_in_prefix": "24c537da38f14e3eedc4f2764de6c11cf4b951c32c44756a2f3fe9b27376619b",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/series.py",
+        "path_type": "hardlink",
+        "sha256": "93c791f1cbe21fd10f9654638ebff66be947e52dff1d60532f213b5ca821cd67",
+        "sha256_in_prefix": "93c791f1cbe21fd10f9654638ebff66be947e52dff1d60532f213b5ca821cd67",
+        "size_in_bytes": 5896
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/series_factory.py",
+        "path_type": "hardlink",
+        "sha256": "7b2d7380dc0cd60e1b43007d94b84ce84f9cb4b20cda42d63375fb08fc3c483b",
+        "sha256_in_prefix": "7b2d7380dc0cd60e1b43007d94b84ce84f9cb4b20cda42d63375fb08fc3c483b",
+        "size_in_bytes": 1368
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/shapes.py",
+        "path_type": "hardlink",
+        "sha256": "26480ccb70d458328b57a2591ca6ffa5406f5a9cd3010ddb89432bfb57c95995",
+        "sha256_in_prefix": "26480ccb70d458328b57a2591ca6ffa5406f5a9cd3010ddb89432bfb57c95995",
+        "size_in_bytes": 2815
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/stock_chart.py",
+        "path_type": "hardlink",
+        "sha256": "609ede125057e68987ce22a8e35ca04c0ec5fcd124c8894551f74325766e2a13",
+        "sha256_in_prefix": "609ede125057e68987ce22a8e35ca04c0ec5fcd124c8894551f74325766e2a13",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/surface_chart.py",
+        "path_type": "hardlink",
+        "sha256": "ffec86117f8ebb634956624203f2bf6d22f2ce4f91bdb3eea7240b9a37c25a3d",
+        "sha256_in_prefix": "ffec86117f8ebb634956624203f2bf6d22f2ce4f91bdb3eea7240b9a37c25a3d",
+        "size_in_bytes": 2914
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/text.py",
+        "path_type": "hardlink",
+        "sha256": "be82427f83cae689665f483fe6ef5a428f01e4ba4252539eab88f8a673b2fc0d",
+        "sha256_in_prefix": "be82427f83cae689665f483fe6ef5a428f01e4ba4252539eab88f8a673b2fc0d",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/title.py",
+        "path_type": "hardlink",
+        "sha256": "2feecac7072931bd9a664e2292032c22014f56d05a7c8a69c7dca477914f278c",
+        "sha256_in_prefix": "2feecac7072931bd9a664e2292032c22014f56d05a7c8a69c7dca477914f278c",
+        "size_in_bytes": 1952
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/trendline.py",
+        "path_type": "hardlink",
+        "sha256": "f6959225af40770b5deaffe2edd3d3eea34ace13ab48c599e10b803a7b595958",
+        "sha256_in_prefix": "f6959225af40770b5deaffe2edd3d3eea34ace13ab48c599e10b803a7b595958",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chart/updown_bars.py",
+        "path_type": "hardlink",
+        "sha256": "400e25c8432d315bd90ab614a476583154b5c6c9da378fd3e54062e84ee2950d",
+        "sha256_in_prefix": "400e25c8432d315bd90ab614a476583154b5c6c9da378fd3e54062e84ee2950d",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dce9f2d5635bc715ae75d4d6fa97ae50fbcedf1a8858559edc36b6394cec5672",
+        "sha256_in_prefix": "dce9f2d5635bc715ae75d4d6fa97ae50fbcedf1a8858559edc36b6394cec5672",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c936d11781fb73d2017990f6ba9f1235cc81b56bdaf16b32c4a2c44966d6536",
+        "sha256_in_prefix": "6c936d11781fb73d2017990f6ba9f1235cc81b56bdaf16b32c4a2c44966d6536",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/chartsheet.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "125ab4ec03d891c665e4cf05bd257f2f38cace5e8109f25c27bb52b3fcbaca75",
+        "sha256_in_prefix": "125ab4ec03d891c665e4cf05bd257f2f38cace5e8109f25c27bb52b3fcbaca75",
+        "size_in_bytes": 3158
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/custom.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "46c6dff52a248e27eeb39ef7d6c6d96f477a8dfa11e3b2b45e4607e10716dbcb",
+        "sha256_in_prefix": "46c6dff52a248e27eeb39ef7d6c6d96f477a8dfa11e3b2b45e4607e10716dbcb",
+        "size_in_bytes": 1728
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/properties.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ada579cba1ba46661f47466242f69a1b1d0f6ee132ff0cc712af0548e5487d83",
+        "sha256_in_prefix": "ada579cba1ba46661f47466242f69a1b1d0f6ee132ff0cc712af0548e5487d83",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/protection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2434add0f53b7f32af38c06e257a0d2c44f81644b50c41f7791fbf77b91a46f6",
+        "sha256_in_prefix": "2434add0f53b7f32af38c06e257a0d2c44f81644b50c41f7791fbf77b91a46f6",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/publish.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d19374373d4dc3c575000890b82aefa801a4a1693b93d21559cb0e4ac428920",
+        "sha256_in_prefix": "4d19374373d4dc3c575000890b82aefa801a4a1693b93d21559cb0e4ac428920",
+        "size_in_bytes": 1551
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/relation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "efef11628fbfbdb5d443fc8778a72168724bc3817e159841b2a827e77179f297",
+        "sha256_in_prefix": "efef11628fbfbdb5d443fc8778a72168724bc3817e159841b2a827e77179f297",
+        "size_in_bytes": 2397
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/__pycache__/views.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "89e79a66edc9baa9758883bb09e40f2f866d7546e1eaece4988a7848b70101be",
+        "sha256_in_prefix": "89e79a66edc9baa9758883bb09e40f2f866d7546e1eaece4988a7848b70101be",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/chartsheet.py",
+        "path_type": "hardlink",
+        "sha256": "1935cd7d03d805a4b807b5c1e1fee00e4028da40a3b59aa2765ea20f1a7e250f",
+        "sha256_in_prefix": "1935cd7d03d805a4b807b5c1e1fee00e4028da40a3b59aa2765ea20f1a7e250f",
+        "size_in_bytes": 3911
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/custom.py",
+        "path_type": "hardlink",
+        "sha256": "a9581e0b34fbb75b4dfe90f068baad477b9bb8f0cb79347928a95cc709d359af",
+        "sha256_in_prefix": "a9581e0b34fbb75b4dfe90f068baad477b9bb8f0cb79347928a95cc709d359af",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/properties.py",
+        "path_type": "hardlink",
+        "sha256": "751d67ae9db616c3e4c83af041a655eedfa9f99d8973cf18d8884819b06f1619",
+        "sha256_in_prefix": "751d67ae9db616c3e4c83af041a655eedfa9f99d8973cf18d8884819b06f1619",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/protection.py",
+        "path_type": "hardlink",
+        "sha256": "7898b110199da130cedbfd21ea0e75b1d49d7d274268ff1450db1b12a1ddb3a5",
+        "sha256_in_prefix": "7898b110199da130cedbfd21ea0e75b1d49d7d274268ff1450db1b12a1ddb3a5",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/publish.py",
+        "path_type": "hardlink",
+        "sha256": "3ebc2ab142a7d922baed9337344193f451f89ce282d5c3b1c66df7db68476b04",
+        "sha256_in_prefix": "3ebc2ab142a7d922baed9337344193f451f89ce282d5c3b1c66df7db68476b04",
+        "size_in_bytes": 1587
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/relation.py",
+        "path_type": "hardlink",
+        "sha256": "64001f1196fadfdbded24e81c91c261dd8c1ae3a950b46c738b808701c11c7aa",
+        "sha256_in_prefix": "64001f1196fadfdbded24e81c91c261dd8c1ae3a950b46c738b808701c11c7aa",
+        "size_in_bytes": 2731
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/chartsheet/views.py",
+        "path_type": "hardlink",
+        "sha256": "332dc0bbe0c401c0b8970040461ac2730b0decba7d1fa705413f92880709964a",
+        "sha256_in_prefix": "332dc0bbe0c401c0b8970040461ac2730b0decba7d1fa705413f92880709964a",
+        "size_in_bytes": 1341
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93f409f8e3d199ef07800610972c5b6d18664b59f6172a30a8879e9015beeefc",
+        "sha256_in_prefix": "93f409f8e3d199ef07800610972c5b6d18664b59f6172a30a8879e9015beeefc",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e322e52f6aa4f9f9caa44edb5423a23a359dbe38ab449f2d17e879a71f815987",
+        "sha256_in_prefix": "e322e52f6aa4f9f9caa44edb5423a23a359dbe38ab449f2d17e879a71f815987",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/__pycache__/author.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d2f645ff54def97152081bb637479c5858e8a761bc7727b53f3565a04f2c0ab",
+        "sha256_in_prefix": "4d2f645ff54def97152081bb637479c5858e8a761bc7727b53f3565a04f2c0ab",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/__pycache__/comment_sheet.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2f8b77acbb8ba0baaf7e9095cfbd602bd181802b1caa1dbcaa6fdb82b6ee3d1",
+        "sha256_in_prefix": "c2f8b77acbb8ba0baaf7e9095cfbd602bd181802b1caa1dbcaa6fdb82b6ee3d1",
+        "size_in_bytes": 5192
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/__pycache__/comments.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c78764d6f2db504200560980a33b93ba79170de3552987a244e06aef32b6603",
+        "sha256_in_prefix": "1c78764d6f2db504200560980a33b93ba79170de3552987a244e06aef32b6603",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/__pycache__/shape_writer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f353601e5d2b0cbce9abddeeaa74d7f875dbfcbf679af7e13eeec2c530ab33b2",
+        "sha256_in_prefix": "f353601e5d2b0cbce9abddeeaa74d7f875dbfcbf679af7e13eeec2c530ab33b2",
+        "size_in_bytes": 3215
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/author.py",
+        "path_type": "hardlink",
+        "sha256": "3d907f7e342a8849bc05d1c36e56dfcc1d20ce416f1025aae62d6348778965ca",
+        "sha256_in_prefix": "3d907f7e342a8849bc05d1c36e56dfcc1d20ce416f1025aae62d6348778965ca",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/comment_sheet.py",
+        "path_type": "hardlink",
+        "sha256": "52fd913e9231ae29033c706be588f574392eb1907def2544f8d413334f849c19",
+        "sha256_in_prefix": "52fd913e9231ae29033c706be588f574392eb1907def2544f8d413334f849c19",
+        "size_in_bytes": 5753
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/comments.py",
+        "path_type": "hardlink",
+        "sha256": "0b1bab01633b59b09d6dec9af8342495b8964856b186dad4341644cee953cb17",
+        "sha256_in_prefix": "0b1bab01633b59b09d6dec9af8342495b8964856b186dad4341644cee953cb17",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/comments/shape_writer.py",
+        "path_type": "hardlink",
+        "sha256": "2ecd5dd12b1c7f118cf47daca63c4c34778949a649b8b6b0957b38b78a87eefe",
+        "sha256_in_prefix": "2ecd5dd12b1c7f118cf47daca63c4c34778949a649b8b6b0957b38b78a87eefe",
+        "size_in_bytes": 3809
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7e5b45fff09d18af7b97657732d203c5bc2057fa75019bcb772a9c12d5cab2ab",
+        "sha256_in_prefix": "7e5b45fff09d18af7b97657732d203c5bc2057fa75019bcb772a9c12d5cab2ab",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "92be38cfd44a48ae92dd8572ec03e2875f71330c8a24cc23a5139066e9723de7",
+        "sha256_in_prefix": "92be38cfd44a48ae92dd8572ec03e2875f71330c8a24cc23a5139066e9723de7",
+        "size_in_bytes": 1491
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__pycache__/abc.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e009f2f0822495f503c4375561641cb16c53639233b24d59a426ed67e9d80bae",
+        "sha256_in_prefix": "e009f2f0822495f503c4375561641cb16c53639233b24d59a426ed67e9d80bae",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__pycache__/numbers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b992e5f90b58db47579566bd288eef901ec010d2c3614dae21748609d1aa338",
+        "sha256_in_prefix": "5b992e5f90b58db47579566bd288eef901ec010d2c3614dae21748609d1aa338",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__pycache__/product.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "51b980de9d0f49601711eeb56306fc26fa0a4b956505912b29bb405dbd6ae36d",
+        "sha256_in_prefix": "51b980de9d0f49601711eeb56306fc26fa0a4b956505912b29bb405dbd6ae36d",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__pycache__/singleton.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eab86177ca34c1f5cdce70e54a1be01514cf6bd44c85d4ccea8a00d13c2004c6",
+        "sha256_in_prefix": "eab86177ca34c1f5cdce70e54a1be01514cf6bd44c85d4ccea8a00d13c2004c6",
+        "size_in_bytes": 1493
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/__pycache__/strings.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2551dd5c8d3aec36a79a0c80bc8c11bb7a2c042a0e1ff774fc9ea9364826422",
+        "sha256_in_prefix": "a2551dd5c8d3aec36a79a0c80bc8c11bb7a2c042a0e1ff774fc9ea9364826422",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/abc.py",
+        "path_type": "hardlink",
+        "sha256": "63e2faa68cf3823afcd4e7d7b230e418378a12ae8139f32bea7beb169b3fa3a4",
+        "sha256_in_prefix": "63e2faa68cf3823afcd4e7d7b230e418378a12ae8139f32bea7beb169b3fa3a4",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/numbers.py",
+        "path_type": "hardlink",
+        "sha256": "d9d7241343c74fb781f3d49cd8176558e1f864b5d6b77fdea3bdfe0b346e8d46",
+        "sha256_in_prefix": "d9d7241343c74fb781f3d49cd8176558e1f864b5d6b77fdea3bdfe0b346e8d46",
+        "size_in_bytes": 1617
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/product.py",
+        "path_type": "hardlink",
+        "sha256": "f9b0e034c1c60e06da860c348ea6a57bc4de20044bc3b1ced2ca1000bf5bff89",
+        "sha256_in_prefix": "f9b0e034c1c60e06da860c348ea6a57bc4de20044bc3b1ced2ca1000bf5bff89",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/singleton.py",
+        "path_type": "hardlink",
+        "sha256": "4751e21fb5e98da5b892bdc620b58c738851199917c9cd322bb4f58dc83f4168",
+        "sha256_in_prefix": "4751e21fb5e98da5b892bdc620b58c738851199917c9cd322bb4f58dc83f4168",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/compat/strings.py",
+        "path_type": "hardlink",
+        "sha256": "0ff4d67fc427307e96331eb1b820df5e5d1ba1cd64f6aee3f2119a9554364549",
+        "sha256_in_prefix": "0ff4d67fc427307e96331eb1b820df5e5d1ba1cd64f6aee3f2119a9554364549",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "78849347449ad5928a3503f1319b6a944dfd26e818ce48f18997fbbbd7edb62c",
+        "sha256_in_prefix": "78849347449ad5928a3503f1319b6a944dfd26e818ce48f18997fbbbd7edb62c",
+        "size_in_bytes": 1952
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b66d0fc6f63b9577cc611e0ff3283772c92ed81a8d5069e3d70925d099fb21f1",
+        "sha256_in_prefix": "b66d0fc6f63b9577cc611e0ff3283772c92ed81a8d5069e3d70925d099fb21f1",
+        "size_in_bytes": 1832
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/base.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "98c55d24b0b272249ad923c261e991b249dc9afd5a8e90dc2e199012e0778868",
+        "sha256_in_prefix": "98c55d24b0b272249ad923c261e991b249dc9afd5a8e90dc2e199012e0778868",
+        "size_in_bytes": 9402
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/container.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "230bd8223fd0dd760681fb53830fc8ad171f61ea0d8d125c6766d97e6ecbd8f0",
+        "sha256_in_prefix": "230bd8223fd0dd760681fb53830fc8ad171f61ea0d8d125c6766d97e6ecbd8f0",
+        "size_in_bytes": 1614
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/excel.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6dd19fb6d3b9b8ae9e01939dd02746f89c69a49e50a1f88c4d7e42495bc7daf",
+        "sha256_in_prefix": "e6dd19fb6d3b9b8ae9e01939dd02746f89c69a49e50a1f88c4d7e42495bc7daf",
+        "size_in_bytes": 3547
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/namespace.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "95e80c0fe6a6ed7f44446de41cbed7210f6dacc4783869e362e3c736a247a91a",
+        "sha256_in_prefix": "95e80c0fe6a6ed7f44446de41cbed7210f6dacc4783869e362e3c736a247a91a",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/nested.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71252c920b461e01a765e11c787ce050c0f18ac13ba95fd04f267085155e09aa",
+        "sha256_in_prefix": "71252c920b461e01a765e11c787ce050c0f18ac13ba95fd04f267085155e09aa",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/sequence.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "faf8916fd32c61145a5605357d3e7516583fc84d5198e72e9022ef2771d3b8e2",
+        "sha256_in_prefix": "faf8916fd32c61145a5605357d3e7516583fc84d5198e72e9022ef2771d3b8e2",
+        "size_in_bytes": 4768
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/serialisable.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "320694ac8707a4ef0f62c4d5e4270e6778cc3d4c77a2a292bb0426a031cb8f72",
+        "sha256_in_prefix": "320694ac8707a4ef0f62c4d5e4270e6778cc3d4c77a2a292bb0426a031cb8f72",
+        "size_in_bytes": 5294
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/__pycache__/slots.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "646d994f6ca66c8d5df2b664c2f21527ff438bec3295d3c02c3fe8b86bf5bcc4",
+        "sha256_in_prefix": "646d994f6ca66c8d5df2b664c2f21527ff438bec3295d3c02c3fe8b86bf5bcc4",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/base.py",
+        "path_type": "hardlink",
+        "sha256": "f82b8d7ecc0419ace03a85f71ae33606cdb39012264fdf764ef476475c6c9d73",
+        "sha256_in_prefix": "f82b8d7ecc0419ace03a85f71ae33606cdb39012264fdf764ef476475c6c9d73",
+        "size_in_bytes": 7135
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/container.py",
+        "path_type": "hardlink",
+        "sha256": "21c3bdd4cd36851d2f5d9b561aeaf3d081f5562d8fa041023f53c46f3eb61494",
+        "sha256_in_prefix": "21c3bdd4cd36851d2f5d9b561aeaf3d081f5562d8fa041023f53c46f3eb61494",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/excel.py",
+        "path_type": "hardlink",
+        "sha256": "77a6ba9ada19fb7de3c0c1a582f3532f9e1ca8b00d2b284c8a11baf3cee3f2bd",
+        "sha256_in_prefix": "77a6ba9ada19fb7de3c0c1a582f3532f9e1ca8b00d2b284c8a11baf3cee3f2bd",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "2e32387bd474f4d49b0a5aff7b0bf46261e0598f113b9c6ad6cf92a40bf3db0a",
+        "sha256_in_prefix": "2e32387bd474f4d49b0a5aff7b0bf46261e0598f113b9c6ad6cf92a40bf3db0a",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/nested.py",
+        "path_type": "hardlink",
+        "sha256": "e4b4ac7f6baf4cab2b1841101752955cc2c7645a118262df2ff9735b49564232",
+        "sha256_in_prefix": "e4b4ac7f6baf4cab2b1841101752955cc2c7645a118262df2ff9735b49564232",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "3aa177e0afe7502e3a5c3e41ffac73187784202cfff368641643455e90644921",
+        "sha256_in_prefix": "3aa177e0afe7502e3a5c3e41ffac73187784202cfff368641643455e90644921",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/serialisable.py",
+        "path_type": "hardlink",
+        "sha256": "53fef03041904483a28a65142f801b74e89631cfda2f229e6919e3fd9edd54ef",
+        "sha256_in_prefix": "53fef03041904483a28a65142f801b74e89631cfda2f229e6919e3fd9edd54ef",
+        "size_in_bytes": 7361
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/descriptors/slots.py",
+        "path_type": "hardlink",
+        "sha256": "c4d8f9bcb596a28ba7a58a9b3f62439e78654e24cb467fae4df4319dca457e7d",
+        "sha256_in_prefix": "c4d8f9bcb596a28ba7a58a9b3f62439e78654e24cb467fae4df4319dca457e7d",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c655d5693dc5b3d96dbdb6d12064d2468c3d930f6784b637663d4c9babd74471",
+        "sha256_in_prefix": "c655d5693dc5b3d96dbdb6d12064d2468c3d930f6784b637663d4c9babd74471",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "da04ca919755773b085ae47410728046682d2a76185efb0e360560207b8a147d",
+        "sha256_in_prefix": "da04ca919755773b085ae47410728046682d2a76185efb0e360560207b8a147d",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/colors.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "99e4de1f773099d6d8b5ec161df97ebe70196400874e6ad9664a6af7aa0c2cef",
+        "sha256_in_prefix": "99e4de1f773099d6d8b5ec161df97ebe70196400874e6ad9664a6af7aa0c2cef",
+        "size_in_bytes": 10069
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/connector.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d863d6abc8ca016d37cec32bc4ad030d767ea4197a6b918ea7d100ef44853d66",
+        "sha256_in_prefix": "d863d6abc8ca016d37cec32bc4ad030d767ea4197a6b918ea7d100ef44853d66",
+        "size_in_bytes": 3872
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/drawing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b612d28ad7154031fcf80e8e668c42ded4455328490ffcbe3ffd696d55179468",
+        "sha256_in_prefix": "b612d28ad7154031fcf80e8e668c42ded4455328490ffcbe3ffd696d55179468",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/effect.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb330fc37c19137752118361386728da7db7c0ae7a70d7235edeaa9f7fe4f0b8",
+        "sha256_in_prefix": "eb330fc37c19137752118361386728da7db7c0ae7a70d7235edeaa9f7fe4f0b8",
+        "size_in_bytes": 9560
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/fill.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "208c6fe90247cf9399b354237a9f7ccdbfdfec13b2096904153f67cdf169452c",
+        "sha256_in_prefix": "208c6fe90247cf9399b354237a9f7ccdbfdfec13b2096904153f67cdf169452c",
+        "size_in_bytes": 9435
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/geometry.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5eda5bb0e54f212243ea99269bb57de93999e1dfc5fdd1705ca1666be2e61548",
+        "sha256_in_prefix": "5eda5bb0e54f212243ea99269bb57de93999e1dfc5fdd1705ca1666be2e61548",
+        "size_in_bytes": 15818
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/graphic.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "22a2d21fcb368411f5e188f6863370d1fd34a438f0b14dd9890c91bd666abd52",
+        "sha256_in_prefix": "22a2d21fcb368411f5e188f6863370d1fd34a438f0b14dd9890c91bd666abd52",
+        "size_in_bytes": 4440
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/image.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "85cf971a21fb544e51cf5f1f9d71099fe0dc4ec0a9d634839c30b47582230abe",
+        "sha256_in_prefix": "85cf971a21fb544e51cf5f1f9d71099fe0dc4ec0a9d634839c30b47582230abe",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/line.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "08490146033003417dc4e5cfa696be134d29a7d8b6ffb9a042098a2be1f2f3a4",
+        "sha256_in_prefix": "08490146033003417dc4e5cfa696be134d29a7d8b6ffb9a042098a2be1f2f3a4",
+        "size_in_bytes": 3494
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/picture.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb09f1799ec437ee05839f9a07822de8abb7543474cc15519db9ce22351c4ed5",
+        "sha256_in_prefix": "eb09f1799ec437ee05839f9a07822de8abb7543474cc15519db9ce22351c4ed5",
+        "size_in_bytes": 3358
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/properties.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dd9d05172f171b0e8dc1a40008c9dd67f57f067c0f255666e312c4d4395e0c6",
+        "sha256_in_prefix": "5dd9d05172f171b0e8dc1a40008c9dd67f57f067c0f255666e312c4d4395e0c6",
+        "size_in_bytes": 4199
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/relation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b95e719636329acd0d52eb01e2ced22bd793524474dd94ab5bef4cc27e4cb0a",
+        "sha256_in_prefix": "9b95e719636329acd0d52eb01e2ced22bd793524474dd94ab5bef4cc27e4cb0a",
+        "size_in_bytes": 684
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/spreadsheet_drawing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "31e85ed1418eb8e8e281113bf7a268e8102b397ce9667f39f48aa742bac1ad9f",
+        "sha256_in_prefix": "31e85ed1418eb8e8e281113bf7a268e8102b397ce9667f39f48aa742bac1ad9f",
+        "size_in_bytes": 9151
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/text.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f502e6962683fb003681ce0a48079b1a093b9081a0c121ca4063ad46924af793",
+        "sha256_in_prefix": "f502e6962683fb003681ce0a48079b1a093b9081a0c121ca4063ad46924af793",
+        "size_in_bytes": 15631
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/__pycache__/xdr.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f32b05b47d69bdda47c22b95a883d6f78106668e514ea7f5b2cafa9466ca2e5a",
+        "sha256_in_prefix": "f32b05b47d69bdda47c22b95a883d6f78106668e514ea7f5b2cafa9466ca2e5a",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/colors.py",
+        "path_type": "hardlink",
+        "sha256": "77dd9de8b42fdb18b8c55b7417a6c4273fa4a5ee1a86084db0e218d3f7318102",
+        "sha256_in_prefix": "77dd9de8b42fdb18b8c55b7417a6c4273fa4a5ee1a86084db0e218d3f7318102",
+        "size_in_bytes": 15251
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/connector.py",
+        "path_type": "hardlink",
+        "sha256": "e1b7ba905c039a2c6a617ea4a36d8913772a27dc5433b951a2749eaf50435606",
+        "sha256_in_prefix": "e1b7ba905c039a2c6a617ea4a36d8913772a27dc5433b951a2749eaf50435606",
+        "size_in_bytes": 3863
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/drawing.py",
+        "path_type": "hardlink",
+        "sha256": "59bbf6e1365b35a3e780347769d3a3ea350183e8b2318c9fbe010f83ee483eef",
+        "sha256_in_prefix": "59bbf6e1365b35a3e780347769d3a3ea350183e8b2318c9fbe010f83ee483eef",
+        "size_in_bytes": 2339
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/effect.py",
+        "path_type": "hardlink",
+        "sha256": "bd9e6bf64dc97f2680a0182017337dc32bec1039cc9c09a4419b1d550375fb0a",
+        "sha256_in_prefix": "bd9e6bf64dc97f2680a0182017337dc32bec1039cc9c09a4419b1d550375fb0a",
+        "size_in_bytes": 9435
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/fill.py",
+        "path_type": "hardlink",
+        "sha256": "67f9006396e7720bb55a464dbe08e25f9b9cad823a18b5f2522e87dff9a77b69",
+        "sha256_in_prefix": "67f9006396e7720bb55a464dbe08e25f9b9cad823a18b5f2522e87dff9a77b69",
+        "size_in_bytes": 13092
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "d1433984c1d8cbf4770be947b79c773440839fb3b5b5f6cabb907078bc1d2e58",
+        "sha256_in_prefix": "d1433984c1d8cbf4770be947b79c773440839fb3b5b5f6cabb907078bc1d2e58",
+        "size_in_bytes": 17523
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/graphic.py",
+        "path_type": "hardlink",
+        "sha256": "d35dca8664eaa753c52a1b7d951440e921e3ce7c6af442f8bbfc9b03cf0eb829",
+        "sha256_in_prefix": "d35dca8664eaa753c52a1b7d951440e921e3ce7c6af442f8bbfc9b03cf0eb829",
+        "size_in_bytes": 4811
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/image.py",
+        "path_type": "hardlink",
+        "sha256": "44e3b46098f31fd7aa8cf50a5396ccb6de1b5e71c52bdba87c36b6fff4771b69",
+        "sha256_in_prefix": "44e3b46098f31fd7aa8cf50a5396ccb6de1b5e71c52bdba87c36b6fff4771b69",
+        "size_in_bytes": 1455
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/line.py",
+        "path_type": "hardlink",
+        "sha256": "091c55d0d52971ee117d73c3965a1d7277a81e4f2faf622777c1da5a752fd871",
+        "sha256_in_prefix": "091c55d0d52971ee117d73c3965a1d7277a81e4f2faf622777c1da5a752fd871",
+        "size_in_bytes": 3904
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/picture.py",
+        "path_type": "hardlink",
+        "sha256": "b436286f6c787a7710f6b51639edbd3eab624520c48fbe3a8fe4af43bad5575d",
+        "sha256_in_prefix": "b436286f6c787a7710f6b51639edbd3eab624520c48fbe3a8fe4af43bad5575d",
+        "size_in_bytes": 4205
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/properties.py",
+        "path_type": "hardlink",
+        "sha256": "4f22ce1777a1a77f1726fbaea4d65db0ea99d073579153c10d8c14e4ed468413",
+        "sha256_in_prefix": "4f22ce1777a1a77f1726fbaea4d65db0ea99d073579153c10d8c14e4ed468413",
+        "size_in_bytes": 4948
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/relation.py",
+        "path_type": "hardlink",
+        "sha256": "2276ccef9ca65948c8097863c82718aa9d4559c7c2169f6af6f79c60ba6dce4e",
+        "sha256_in_prefix": "2276ccef9ca65948c8097863c82718aa9d4559c7c2169f6af6f79c60ba6dce4e",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/spreadsheet_drawing.py",
+        "path_type": "hardlink",
+        "sha256": "094592a48616387504a7e5123801953652df5c140e6dc19d83f459fdb8203d83",
+        "sha256_in_prefix": "094592a48616387504a7e5123801953652df5c140e6dc19d83f459fdb8203d83",
+        "size_in_bytes": 10721
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/text.py",
+        "path_type": "hardlink",
+        "sha256": "ebf4a122ef452c6ecc26f30bb3f1bfb536ad4da06ac69697e4a30ac527d363b6",
+        "sha256_in_prefix": "ebf4a122ef452c6ecc26f30bb3f1bfb536ad4da06ac69697e4a30ac527d363b6",
+        "size_in_bytes": 22421
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/drawing/xdr.py",
+        "path_type": "hardlink",
+        "sha256": "5c4db2473942aa82415a0dd33d1c5e9736781a6055f5d0c54ed889809664bbe5",
+        "sha256_in_prefix": "5c4db2473942aa82415a0dd33d1c5e9736781a6055f5d0c54ed889809664bbe5",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formatting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "be990bdc48a631afa6a098dc5a4e25ddb216749ddcedaf2928e7c69673ed7bd7",
+        "sha256_in_prefix": "be990bdc48a631afa6a098dc5a4e25ddb216749ddcedaf2928e7c69673ed7bd7",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formatting/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "53cdf5ad01ccaa5890bdde4ec85931799df27bf39714f371669589bcc94361d2",
+        "sha256_in_prefix": "53cdf5ad01ccaa5890bdde4ec85931799df27bf39714f371669589bcc94361d2",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formatting/__pycache__/formatting.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2340f8ddb41e45d4d84d5961cc91f9f3e01fd9ffc39954e2cacb86385e9cbc41",
+        "sha256_in_prefix": "2340f8ddb41e45d4d84d5961cc91f9f3e01fd9ffc39954e2cacb86385e9cbc41",
+        "size_in_bytes": 3827
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formatting/__pycache__/rule.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd08f2dfc16fc8f7e8bcaca25811e16cbc5a20bfeb3eb69aa6ab9b087684ccca",
+        "sha256_in_prefix": "fd08f2dfc16fc8f7e8bcaca25811e16cbc5a20bfeb3eb69aa6ab9b087684ccca",
+        "size_in_bytes": 7235
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formatting/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "01d5e5ae189ce023efc89df4d281493c9507fb6bd2d1534e2e236e76ddd4dba7",
+        "sha256_in_prefix": "01d5e5ae189ce023efc89df4d281493c9507fb6bd2d1534e2e236e76ddd4dba7",
+        "size_in_bytes": 2701
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formatting/rule.py",
+        "path_type": "hardlink",
+        "sha256": "f7a15ce7e8520720abbe40b53b46a01286722fd1bf01d7ae96b8d15e77ffad9f",
+        "sha256_in_prefix": "f7a15ce7e8520720abbe40b53b46a01286722fd1bf01d7ae96b8d15e77ffad9f",
+        "size_in_bytes": 9288
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formula/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "020bc476e9d5af2873c1e72e1553b611ecdd253de1e60097a70da3ddfe555160",
+        "sha256_in_prefix": "020bc476e9d5af2873c1e72e1553b611ecdd253de1e60097a70da3ddfe555160",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formula/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "27e202dc4ba9352fc3506cd404b4a90e07852208125132b15485cc2d831ae929",
+        "sha256_in_prefix": "27e202dc4ba9352fc3506cd404b4a90e07852208125132b15485cc2d831ae929",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formula/__pycache__/tokenizer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f166688012774e3e472536234d3fc46fae1ee278ede1ed33ea181621dd341c5e",
+        "sha256_in_prefix": "f166688012774e3e472536234d3fc46fae1ee278ede1ed33ea181621dd341c5e",
+        "size_in_bytes": 12236
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formula/__pycache__/translate.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e001af17596d2e43998a8a82ca5ac4b65ae9669b3a2c73ff41474e88eb7c1df",
+        "sha256_in_prefix": "6e001af17596d2e43998a8a82ca5ac4b65ae9669b3a2c73ff41474e88eb7c1df",
+        "size_in_bytes": 5205
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formula/tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "a358c300e97bf588825abfb62e64880b201b866da175bfb7ee3ae26ac9afe1d7",
+        "sha256_in_prefix": "a358c300e97bf588825abfb62e64880b201b866da175bfb7ee3ae26ac9afe1d7",
+        "size_in_bytes": 15088
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/formula/translate.py",
+        "path_type": "hardlink",
+        "sha256": "66cf5a76a7d94c0ba8f09fd035ba8adef8d00e5485856734bd673a4c230362b2",
+        "sha256_in_prefix": "66cf5a76a7d94c0ba8f09fd035ba8adef8d00e5485856734bd673a4c230362b2",
+        "size_in_bytes": 6653
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "29c36d3b6ce8622cce806fa26736b265f7d22f559e651f7c8b543c4184d185f2",
+        "sha256_in_prefix": "29c36d3b6ce8622cce806fa26736b265f7d22f559e651f7c8b543c4184d185f2",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "afd6141f6bcf8d3436204066f7e29caa370eaea5382fc086c85fb27c18aaeeea",
+        "sha256_in_prefix": "afd6141f6bcf8d3436204066f7e29caa370eaea5382fc086c85fb27c18aaeeea",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e45c0d60e25c2082f379398304c96113c7beb1bdd375c5035b697a07e18d0220",
+        "sha256_in_prefix": "e45c0d60e25c2082f379398304c96113c7beb1bdd375c5035b697a07e18d0220",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/custom.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "de634f01ff44c62908d52b4166f72e9fb8328f8b89a4c15a5a5fcad057d5ef5b",
+        "sha256_in_prefix": "de634f01ff44c62908d52b4166f72e9fb8328f8b89a4c15a5a5fcad057d5ef5b",
+        "size_in_bytes": 8089
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/extended.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4db4fd20404e367c00a70d40a69393f1fb455cf58dc32f8fe1dcc11e02baccc2",
+        "sha256_in_prefix": "4db4fd20404e367c00a70d40a69393f1fb455cf58dc32f8fe1dcc11e02baccc2",
+        "size_in_bytes": 3161
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/interface.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "565d89000ac339d339ce37de1505ed73d6aa6f2bfaa72c3a76d4f40a8df20232",
+        "sha256_in_prefix": "565d89000ac339d339ce37de1505ed73d6aa6f2bfaa72c3a76d4f40a8df20232",
+        "size_in_bytes": 1544
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/manifest.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "45fdff578597cba385377fc1f3826069cbcb312b3f9d268dcdacb3cb3b44820c",
+        "sha256_in_prefix": "45fdff578597cba385377fc1f3826069cbcb312b3f9d268dcdacb3cb3b44820c",
+        "size_in_bytes": 6015
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/relationship.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e97f46cbc4bd5844b569297b34a9e323cb826ed85adc34a40dd4fe1de90e10b",
+        "sha256_in_prefix": "4e97f46cbc4bd5844b569297b34a9e323cb826ed85adc34a40dd4fe1de90e10b",
+        "size_in_bytes": 4490
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/__pycache__/workbook.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "895ea4ac4ab41c0813f52579bb0b7764768187a6f6e81cbdf10eb6ab2432a0ec",
+        "sha256_in_prefix": "895ea4ac4ab41c0813f52579bb0b7764768187a6f6e81cbdf10eb6ab2432a0ec",
+        "size_in_bytes": 5147
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/core.py",
+        "path_type": "hardlink",
+        "sha256": "3926d214666b298719b337077b72e1404ca201fd96ca5c319b8ffa37c58ef98a",
+        "sha256_in_prefix": "3926d214666b298719b337077b72e1404ca201fd96ca5c319b8ffa37c58ef98a",
+        "size_in_bytes": 4061
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/custom.py",
+        "path_type": "hardlink",
+        "sha256": "b82125ec8c084c55f6a4ec620084e7bcd6dfb1abfcd2e1c1d305d416f8c84544",
+        "sha256_in_prefix": "b82125ec8c084c55f6a4ec620084e7bcd6dfb1abfcd2e1c1d305d416f8c84544",
+        "size_in_bytes": 6738
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/extended.py",
+        "path_type": "hardlink",
+        "sha256": "24592cc4377aeeb039ee7fafc60e3cb5b7998768362c439bd1f8092dea9b4d63",
+        "sha256_in_prefix": "24592cc4377aeeb039ee7fafc60e3cb5b7998768362c439bd1f8092dea9b4d63",
+        "size_in_bytes": 4810
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/interface.py",
+        "path_type": "hardlink",
+        "sha256": "be5195b7862fc94478517f53afdc66927d46f2cff29d856d031e28909ebe83ff",
+        "sha256_in_prefix": "be5195b7862fc94478517f53afdc66927d46f2cff29d856d031e28909ebe83ff",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/manifest.py",
+        "path_type": "hardlink",
+        "sha256": "cb9ce80d09e1275696fc73cb22d63f584f787d22d2e23c6f7c8aa7fc9db327a4",
+        "sha256_in_prefix": "cb9ce80d09e1275696fc73cb22d63f584f787d22d2e23c6f7c8aa7fc9db327a4",
+        "size_in_bytes": 5366
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/relationship.py",
+        "path_type": "hardlink",
+        "sha256": "8cb86f16f0d56414536535e8911aebb0488b23d0a6165ba5846cc0fce60a3344",
+        "sha256_in_prefix": "8cb86f16f0d56414536535e8911aebb0488b23d0a6165ba5846cc0fce60a3344",
+        "size_in_bytes": 3974
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/packaging/workbook.py",
+        "path_type": "hardlink",
+        "sha256": "b388e5e20aaa3246941e6300479d9d73d66835389eb9772ad4e1b7720343623c",
+        "sha256_in_prefix": "b388e5e20aaa3246941e6300479d9d73d66835389eb9772ad4e1b7720343623c",
+        "size_in_bytes": 6495
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "sha256_in_prefix": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e12a52450bb2468b5ff4f121303de79770da6016222118400c34bf66adcdeaf8",
+        "sha256_in_prefix": "e12a52450bb2468b5ff4f121303de79770da6016222118400c34bf66adcdeaf8",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/__pycache__/cache.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "27a19ac5cafa9a79a5084ef07d045ac9d0eb4c9cbe75b1dab28a5001562096fd",
+        "sha256_in_prefix": "27a19ac5cafa9a79a5084ef07d045ac9d0eb4c9cbe75b1dab28a5001562096fd",
+        "size_in_bytes": 20180
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/__pycache__/fields.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd11877a34d0fc5f7b9dd749540409ed2570ad1e1f2b6ef5abee7d979ee4e3b5",
+        "sha256_in_prefix": "fd11877a34d0fc5f7b9dd749540409ed2570ad1e1f2b6ef5abee7d979ee4e3b5",
+        "size_in_bytes": 5517
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/__pycache__/record.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5250872fd4f5b7707be55d3393168f9e106faaa62ba62c2f46156e028106687f",
+        "sha256_in_prefix": "5250872fd4f5b7707be55d3393168f9e106faaa62ba62c2f46156e028106687f",
+        "size_in_bytes": 3095
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/__pycache__/table.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e29db942e614a63bb1078cecb0e281c0833e50f365a2600fa62d26298956843",
+        "sha256_in_prefix": "7e29db942e614a63bb1078cecb0e281c0833e50f365a2600fa62d26298956843",
+        "size_in_bytes": 27088
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/cache.py",
+        "path_type": "hardlink",
+        "sha256": "90a40c11ca186fdb1c97f08d3567e634e4dec03e52de1a411b056232d0c2cb1d",
+        "sha256_in_prefix": "90a40c11ca186fdb1c97f08d3567e634e4dec03e52de1a411b056232d0c2cb1d",
+        "size_in_bytes": 27840
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/fields.py",
+        "path_type": "hardlink",
+        "sha256": "d0240b75338185801af607c465bfdbbe4802c7c7de012629eb876a16c90392a5",
+        "sha256_in_prefix": "d0240b75338185801af607c465bfdbbe4802c7c7de012629eb876a16c90392a5",
+        "size_in_bytes": 7057
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/record.py",
+        "path_type": "hardlink",
+        "sha256": "738e5fb7562c3c05519de31587f5af510d6766df51250fe3a2c46ea252b1dea1",
+        "sha256_in_prefix": "738e5fb7562c3c05519de31587f5af510d6766df51250fe3a2c46ea252b1dea1",
+        "size_in_bytes": 2671
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/pivot/table.py",
+        "path_type": "hardlink",
+        "sha256": "ae228179bd5a2025d68a99e1a52692c7d8aa3fe0247dcc8e4a6dc37e5e34edd0",
+        "sha256_in_prefix": "ae228179bd5a2025d68a99e1a52692c7d8aa3fe0247dcc8e4a6dc37e5e34edd0",
+        "size_in_bytes": 40756
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "sha256_in_prefix": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9a7965bf66519e819ce460b8867212b37592effabc8192310e3e9d8baa10481",
+        "sha256_in_prefix": "c9a7965bf66519e819ce460b8867212b37592effabc8192310e3e9d8baa10481",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/__pycache__/drawings.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3dbfd660b0d15f606f293d7f4778997a4bc0e10d18a6f9de0011b1eb9d5f53e2",
+        "sha256_in_prefix": "3dbfd660b0d15f606f293d7f4778997a4bc0e10d18a6f9de0011b1eb9d5f53e2",
+        "size_in_bytes": 1980
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/__pycache__/excel.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "adfec7b0de30d14ad89707b656fb12ab3bee27bb48a4bb6e04cc4b88373fb60e",
+        "sha256_in_prefix": "adfec7b0de30d14ad89707b656fb12ab3bee27bb48a4bb6e04cc4b88373fb60e",
+        "size_in_bytes": 10326
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/__pycache__/strings.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5757a4bb441a8591e4eb584598ed1df1468e91684468b5d4089d4ac3781f8775",
+        "sha256_in_prefix": "5757a4bb441a8591e4eb584598ed1df1468e91684468b5d4089d4ac3781f8775",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/__pycache__/workbook.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0268edeb29cc4d3378e4bd48ca196cb9e33a8c88ffa79224ff8425d9a2541adf",
+        "sha256_in_prefix": "0268edeb29cc4d3378e4bd48ca196cb9e33a8c88ffa79224ff8425d9a2541adf",
+        "size_in_bytes": 3958
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/drawings.py",
+        "path_type": "hardlink",
+        "sha256": "8993e893c0dcfe664cc913e4fc47c35c342f65dc1f1f06d88efc5f2b6717b5a8",
+        "sha256_in_prefix": "8993e893c0dcfe664cc913e4fc47c35c342f65dc1f1f06d88efc5f2b6717b5a8",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/excel.py",
+        "path_type": "hardlink",
+        "sha256": "9204ad42d3b58f4bd5e7a196697c68dc6036117ba8b86b6716b45532872af046",
+        "sha256_in_prefix": "9204ad42d3b58f4bd5e7a196697c68dc6036117ba8b86b6716b45532872af046",
+        "size_in_bytes": 12357
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/strings.py",
+        "path_type": "hardlink",
+        "sha256": "a06d8caba7810f4f849453b13dd1d30549ac854c5336b2b5b27b3550945a562b",
+        "sha256_in_prefix": "a06d8caba7810f4f849453b13dd1d30549ac854c5336b2b5b27b3550945a562b",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/reader/workbook.py",
+        "path_type": "hardlink",
+        "sha256": "e30d0b455eea34d1870e761dd7dcd48169c93845fcb478e6def964c70965cefe",
+        "sha256_in_prefix": "e30d0b455eea34d1870e761dd7dcd48169c93845fcb478e6def964c70965cefe",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9034d765cf80a386790141536167ed76633ef7fee1c88a7a91296a3f4e33708",
+        "sha256_in_prefix": "d9034d765cf80a386790141536167ed76633ef7fee1c88a7a91296a3f4e33708",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1de0086f7bd1f163541dc336b0bbee4171b7802d0a7a0f5a11ec9932320e19ce",
+        "sha256_in_prefix": "1de0086f7bd1f163541dc336b0bbee4171b7802d0a7a0f5a11ec9932320e19ce",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/alignment.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "606543f304f4db83ae2562c42e0650682970143a1efef7afc679620d63667b11",
+        "sha256_in_prefix": "606543f304f4db83ae2562c42e0650682970143a1efef7afc679620d63667b11",
+        "size_in_bytes": 1866
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/borders.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "23fe94433a64978c51f70a1a679db4d83169852ee2bffd0c40abe7333bb62c93",
+        "sha256_in_prefix": "23fe94433a64978c51f70a1a679db4d83169852ee2bffd0c40abe7333bb62c93",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/builtins.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2db668d8ccd02e96365b3e755463b5233b1e78f88e3253b0367f69cd178dbdb",
+        "sha256_in_prefix": "b2db668d8ccd02e96365b3e755463b5233b1e78f88e3253b0367f69cd178dbdb",
+        "size_in_bytes": 29595
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/cell_style.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3dc17e8ee89853cb81d085cd414d846c21ef52be15e9fd808e6a2438e7fe9c97",
+        "sha256_in_prefix": "3dc17e8ee89853cb81d085cd414d846c21ef52be15e9fd808e6a2438e7fe9c97",
+        "size_in_bytes": 5402
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/colors.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71035127689463673e673342c55b8669e068ffa5f6612ff7e366a354e850e82d",
+        "sha256_in_prefix": "71035127689463673e673342c55b8669e068ffa5f6612ff7e366a354e850e82d",
+        "size_in_bytes": 4898
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/differential.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b262b562b854883e5a367dffe23d1402495043e700fcb3e6a88bdc02ea25b2dc",
+        "sha256_in_prefix": "b262b562b854883e5a367dffe23d1402495043e700fcb3e6a88bdc02ea25b2dc",
+        "size_in_bytes": 2670
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/fills.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9320fa0160ec2f472b07af5cf214ec1434b726ba7c5ceae259ac8123b70db596",
+        "sha256_in_prefix": "9320fa0160ec2f472b07af5cf214ec1434b726ba7c5ceae259ac8123b70db596",
+        "size_in_bytes": 6948
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/fonts.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "93d6471d46f89d3257ab333717875c23f71b56207e1947e83d91599ad8cf2a04",
+        "sha256_in_prefix": "93d6471d46f89d3257ab333717875c23f71b56207e1947e83d91599ad8cf2a04",
+        "size_in_bytes": 3023
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/named_styles.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbebddc660971f1ef3bf8ef17cd6aa7b7eb25e95e8e2efc2b3c993db378e1ef0",
+        "sha256_in_prefix": "dbebddc660971f1ef3bf8ef17cd6aa7b7eb25e95e8e2efc2b3c993db378e1ef0",
+        "size_in_bytes": 7548
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/numbers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca49584eca826226ecaf79a0c5c86c04dd130976357777313300beb68a51ee14",
+        "sha256_in_prefix": "ca49584eca826226ecaf79a0c5c86c04dd130976357777313300beb68a51ee14",
+        "size_in_bytes": 6108
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/protection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8312e698a3fe3628ce3f9e9b31f490e635ef9348088e3a93098fc20ec60ad9b3",
+        "sha256_in_prefix": "8312e698a3fe3628ce3f9e9b31f490e635ef9348088e3a93098fc20ec60ad9b3",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/proxy.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c63fba0ef2108fb6da473e22dfa8257bf782dadecc0d68e88860b2b3099f7083",
+        "sha256_in_prefix": "c63fba0ef2108fb6da473e22dfa8257bf782dadecc0d68e88860b2b3099f7083",
+        "size_in_bytes": 2202
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/styleable.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "789af5c69c51fa3585a915daeb660014a924d4f8f417fc638cb6ca851425071b",
+        "sha256_in_prefix": "789af5c69c51fa3585a915daeb660014a924d4f8f417fc638cb6ca851425071b",
+        "size_in_bytes": 4644
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/stylesheet.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3934d7dcdf2c1514dc4dfbfb22a5011fb860f381698731f890b54800255c7f26",
+        "sha256_in_prefix": "3934d7dcdf2c1514dc4dfbfb22a5011fb860f381698731f890b54800255c7f26",
+        "size_in_bytes": 7145
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/__pycache__/table.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "59226b2e05473f53013e1ce0efdd62cecc3c58cb30ff9960353fc5d770024156",
+        "sha256_in_prefix": "59226b2e05473f53013e1ce0efdd62cecc3c58cb30ff9960353fc5d770024156",
+        "size_in_bytes": 2694
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/alignment.py",
+        "path_type": "hardlink",
+        "sha256": "c10384b666213c916d9ee06ad23b8c7b912c0a9f43352552d62781865027c161",
+        "sha256_in_prefix": "c10384b666213c916d9ee06ad23b8c7b912c0a9f43352552d62781865027c161",
+        "size_in_bytes": 2198
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/borders.py",
+        "path_type": "hardlink",
+        "sha256": "04b5133b205bc56433bfc2ae875bb8b167c98883c973c404c5bee71b07529977",
+        "sha256_in_prefix": "04b5133b205bc56433bfc2ae875bb8b167c98883c973c404c5bee71b07529977",
+        "size_in_bytes": 3302
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/builtins.py",
+        "path_type": "hardlink",
+        "sha256": "70cb49bdead54a37487427243fa2fe02523438b3113e06d0c1a25652495d0345",
+        "sha256_in_prefix": "70cb49bdead54a37487427243fa2fe02523438b3113e06d0c1a25652495d0345",
+        "size_in_bytes": 31182
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/cell_style.py",
+        "path_type": "hardlink",
+        "sha256": "f0e97917a92d29e4aa843545fb5d30e5e221ed6fa39338a3a4f3c7aaabf5a83b",
+        "sha256_in_prefix": "f0e97917a92d29e4aa843545fb5d30e5e221ed6fa39338a3a4f3c7aaabf5a83b",
+        "size_in_bytes": 5414
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/colors.py",
+        "path_type": "hardlink",
+        "sha256": "4acdd0a8d4b9608495909c6535f778abf612ac529d2a301358b0d2bb6acf3017",
+        "sha256_in_prefix": "4acdd0a8d4b9608495909c6535f778abf612ac529d2a301358b0d2bb6acf3017",
+        "size_in_bytes": 4612
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/differential.py",
+        "path_type": "hardlink",
+        "sha256": "76a1069f2fe8bb58c2ded7a005a975c3f51b38dc901095ef18f511b3cc56c1f5",
+        "sha256_in_prefix": "76a1069f2fe8bb58c2ded7a005a975c3f51b38dc901095ef18f511b3cc56c1f5",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/fills.py",
+        "path_type": "hardlink",
+        "sha256": "2e64781f4d06cca0d6c988f30c46b2cca64ddbc4bf9ae0fae43bc015695b6822",
+        "sha256_in_prefix": "2e64781f4d06cca0d6c988f30c46b2cca64ddbc4bf9ae0fae43bc015695b6822",
+        "size_in_bytes": 6380
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/fonts.py",
+        "path_type": "hardlink",
+        "sha256": "9e47a225480a62759a113be7e75b0ea3dcd05c988e1092870d3aafc6dd098817",
+        "sha256_in_prefix": "9e47a225480a62759a113be7e75b0ea3dcd05c988e1092870d3aafc6dd098817",
+        "size_in_bytes": 3516
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/named_styles.py",
+        "path_type": "hardlink",
+        "sha256": "9df2f528fa5de9bd18d2a06b189435e4450e79b7de3b579905084f5697195bea",
+        "sha256_in_prefix": "9df2f528fa5de9bd18d2a06b189435e4450e79b7de3b579905084f5697195bea",
+        "size_in_bytes": 7254
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/numbers.py",
+        "path_type": "hardlink",
+        "sha256": "ea42bb99d043fb4c6cedb8d80c5346b1402fa05bd1bb9c12323385f49e63f86a",
+        "sha256_in_prefix": "ea42bb99d043fb4c6cedb8d80c5346b1402fa05bd1bb9c12323385f49e63f86a",
+        "size_in_bytes": 5097
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/protection.py",
+        "path_type": "hardlink",
+        "sha256": "0541e0011abb4a33957d6fd24f9de12825287d50445979f72e79ff7399f88bf2",
+        "sha256_in_prefix": "0541e0011abb4a33957d6fd24f9de12825287d50445979f72e79ff7399f88bf2",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/proxy.py",
+        "path_type": "hardlink",
+        "sha256": "6a3b2fcd1a7f30e795feb65211f568b62ebeded5bc6a8c28e7f1e3c29d8095f0",
+        "sha256_in_prefix": "6a3b2fcd1a7f30e795feb65211f568b62ebeded5bc6a8c28e7f1e3c29d8095f0",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/styleable.py",
+        "path_type": "hardlink",
+        "sha256": "625ffea0f96312e17383db57292482baf5912f82f41c2e5b1cc1495617b1e8e7",
+        "sha256_in_prefix": "625ffea0f96312e17383db57292482baf5912f82f41c2e5b1cc1495617b1e8e7",
+        "size_in_bytes": 4499
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/stylesheet.py",
+        "path_type": "hardlink",
+        "sha256": "ee4669cf26af2eb38971d66a6739775994f233ad02a963fc8bf390d09ff5c72d",
+        "sha256_in_prefix": "ee4669cf26af2eb38971d66a6739775994f233ad02a963fc8bf390d09ff5c72d",
+        "size_in_bytes": 8790
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/styles/table.py",
+        "path_type": "hardlink",
+        "sha256": "55ec51a8f3d09a347359ed6b5533a0c8e420be5081b8461389fe4c115ff4aac9",
+        "sha256_in_prefix": "55ec51a8f3d09a347359ed6b5533a0c8e420be5081b8461389fe4c115ff4aac9",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c0230d5e0228038685e2da52b92cf19b59374a624918e123b5d6ea7496591bb2",
+        "sha256_in_prefix": "c0230d5e0228038685e2da52b92cf19b59374a624918e123b5d6ea7496591bb2",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f2080f08dc8db0e8d7ce867b92c09a8824f1bb8cc2c13222fd2acfb6f496fe6",
+        "sha256_in_prefix": "1f2080f08dc8db0e8d7ce867b92c09a8824f1bb8cc2c13222fd2acfb6f496fe6",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/bound_dictionary.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "68dc9fa66a6d74a2bd6ebd3f03cfb1869552c552dee59751097a5d536a3bde0a",
+        "sha256_in_prefix": "68dc9fa66a6d74a2bd6ebd3f03cfb1869552c552dee59751097a5d536a3bde0a",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/cell.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b66bd06deba06d63fdfbdd407116c26d80abebdf56bf3e49439ea4e3ef30820f",
+        "sha256_in_prefix": "b66bd06deba06d63fdfbdd407116c26d80abebdf56bf3e49439ea4e3ef30820f",
+        "size_in_bytes": 6925
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/dataframe.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "153385cf3651a01fdd2e8017ebb318bed6d0caf87ef2f4dcf6f8b04371311a4b",
+        "sha256_in_prefix": "153385cf3651a01fdd2e8017ebb318bed6d0caf87ef2f4dcf6f8b04371311a4b",
+        "size_in_bytes": 2005
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/datetime.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8dc986bdea07cc5365865741278873ab1c0a5fb621fb8fba51249eb211bb073",
+        "sha256_in_prefix": "a8dc986bdea07cc5365865741278873ab1c0a5fb621fb8fba51249eb211bb073",
+        "size_in_bytes": 3762
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/escape.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "089f767f2b8583b4652aaabeeebd9ff58543424e4843ddffe445ba4cc97757af",
+        "sha256_in_prefix": "089f767f2b8583b4652aaabeeebd9ff58543424e4843ddffe445ba4cc97757af",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "62d563ac1da571e321287a92efc285d705a1e7389bad62e2b02719278e4aba39",
+        "sha256_in_prefix": "62d563ac1da571e321287a92efc285d705a1e7389bad62e2b02719278e4aba39",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/formulas.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7003b62f06164de631fb7b74cdb4325a221724ac690453dd68b8def6a61a5d97",
+        "sha256_in_prefix": "7003b62f06164de631fb7b74cdb4325a221724ac690453dd68b8def6a61a5d97",
+        "size_in_bytes": 3661
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/indexed_list.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8cffd49e474a4ff3d7c92b81c6aeda8b40f921980a0b483292fd0d5666a3bd92",
+        "sha256_in_prefix": "8cffd49e474a4ff3d7c92b81c6aeda8b40f921980a0b483292fd0d5666a3bd92",
+        "size_in_bytes": 1651
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/inference.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "75143d69a5353348c6b268aca0fd1eb1ee1ca928f7891762ac62096b1e166e42",
+        "sha256_in_prefix": "75143d69a5353348c6b268aca0fd1eb1ee1ca928f7891762ac62096b1e166e42",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/protection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ac81a4412dd7778d9a2fa2c13d8861ff9536cd5848744f5fd59e983d2812729",
+        "sha256_in_prefix": "2ac81a4412dd7778d9a2fa2c13d8861ff9536cd5848744f5fd59e983d2812729",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/__pycache__/units.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4516ec0f201d951e931b3838efbc10d3489ad0b6d7e376abff4219238fd25345",
+        "sha256_in_prefix": "4516ec0f201d951e931b3838efbc10d3489ad0b6d7e376abff4219238fd25345",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/bound_dictionary.py",
+        "path_type": "hardlink",
+        "sha256": "cdfcdf950a26d45a9f130f2e7b106a23c784c427805842f34a4e13aaaa43fb0f",
+        "sha256_in_prefix": "cdfcdf950a26d45a9f130f2e7b106a23c784c427805842f34a4e13aaaa43fb0f",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/cell.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "e92213173910d8c3ecd8f74834d4eccc0c0f429c42082143910cc8daccf53777",
+        "sha256_in_prefix": "e92213173910d8c3ecd8f74834d4eccc0c0f429c42082143910cc8daccf53777",
+        "size_in_bytes": 136464
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/cell.py",
+        "path_type": "hardlink",
+        "sha256": "3fba20e1ce0971237ffda988b2e6c832048c950e12ac0039799d1c8e4a1795a4",
+        "sha256_in_prefix": "3fba20e1ce0971237ffda988b2e6c832048c950e12ac0039799d1c8e4a1795a4",
+        "size_in_bytes": 6967
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "77748f79be29f58285c2515351685d554618c8c2cdaddf5ab42ea249fd9007ac",
+        "sha256_in_prefix": "77748f79be29f58285c2515351685d554618c8c2cdaddf5ab42ea249fd9007ac",
+        "size_in_bytes": 2957
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/datetime.py",
+        "path_type": "hardlink",
+        "sha256": "c50f331c915bfa7e2794de9f03f7c564a1e51de34e07b125e3ca7df9838fbc61",
+        "sha256_in_prefix": "c50f331c915bfa7e2794de9f03f7c564a1e51de34e07b125e3ca7df9838fbc61",
+        "size_in_bytes": 4529
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/escape.py",
+        "path_type": "hardlink",
+        "sha256": "e1d81c4a549d3cd934be424d1d150af69a047bca67e2c048439463cfeec7d549",
+        "sha256_in_prefix": "e1d81c4a549d3cd934be424d1d150af69a047bca67e2c048439463cfeec7d549",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "593e34813c9df5852183531ea993731e9f6a2672f9797cdb0846ff56d1e9dca9",
+        "sha256_in_prefix": "593e34813c9df5852183531ea993731e9f6a2672f9797cdb0846ff56d1e9dca9",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/formulas.py",
+        "path_type": "hardlink",
+        "sha256": "f88d33caf89c05931a007d57cec9a6104cc4e0607e340eb4e5a02b595b7d8a4e",
+        "sha256_in_prefix": "f88d33caf89c05931a007d57cec9a6104cc4e0607e340eb4e5a02b595b7d8a4e",
+        "size_in_bytes": 4248
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/indexed_list.py",
+        "path_type": "hardlink",
+        "sha256": "841b103fd82e9d38adee229d306c3fb4cdf2e6e2295c38d4c7b8ecc1b405e837",
+        "sha256_in_prefix": "841b103fd82e9d38adee229d306c3fb4cdf2e6e2295c38d4c7b8ecc1b405e837",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/inference.py",
+        "path_type": "hardlink",
+        "sha256": "74cd45056fd1c7fc44ecff2f1a8e963616c17bed9eaa91ae263e1ea9d4bb5231",
+        "sha256_in_prefix": "74cd45056fd1c7fc44ecff2f1a8e963616c17bed9eaa91ae263e1ea9d4bb5231",
+        "size_in_bytes": 1583
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/protection.py",
+        "path_type": "hardlink",
+        "sha256": "a299bb19533678f42fa4dcca4fe5b9eaefb4c8ff25892f56264c69ce91bfb44d",
+        "sha256_in_prefix": "a299bb19533678f42fa4dcca4fe5b9eaefb4c8ff25892f56264c69ce91bfb44d",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/utils/units.py",
+        "path_type": "hardlink",
+        "sha256": "786a46addcf2a0a96a2ecf7d7802cd0b97358122d7468e06754340a9d078c338",
+        "sha256_in_prefix": "786a46addcf2a0a96a2ecf7d7802cd0b97358122d7468e06754340a9d078c338",
+        "size_in_bytes": 2642
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c8a32290df15aa855925ca194955b7a7d4a6b7cf226dea8dabd347846049a843",
+        "sha256_in_prefix": "c8a32290df15aa855925ca194955b7a7d4a6b7cf226dea8dabd347846049a843",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "568d2844667196dde6d79a63d9d49c9aaa07bf7805e4d1f0c171079eeaf42764",
+        "sha256_in_prefix": "568d2844667196dde6d79a63d9d49c9aaa07bf7805e4d1f0c171079eeaf42764",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/_writer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e55001b83ba7ffa69cca83bf440a71d369a23b68d1e6eac1033d1e8e241dd830",
+        "sha256_in_prefix": "e55001b83ba7ffa69cca83bf440a71d369a23b68d1e6eac1033d1e8e241dd830",
+        "size_in_bytes": 5978
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/child.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "99d48a644ee1364b5c14f11b4e05d269395f92b36aaf6399622e119e7f1549ca",
+        "sha256_in_prefix": "99d48a644ee1364b5c14f11b4e05d269395f92b36aaf6399622e119e7f1549ca",
+        "size_in_bytes": 4606
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/defined_name.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2de18a1faeca44e3bc71222cc45f931778581d4c247c281b3ba1ea95a252dc9c",
+        "sha256_in_prefix": "2de18a1faeca44e3bc71222cc45f931778581d4c247c281b3ba1ea95a252dc9c",
+        "size_in_bytes": 5209
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/external_reference.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "308cd97fbf907b39342adb67fa3767488055d59106151e22090febeecba8dbb7",
+        "sha256_in_prefix": "308cd97fbf907b39342adb67fa3767488055d59106151e22090febeecba8dbb7",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/function_group.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "87ebb43b8e60d7954d8eda66002e3bc36eb40ea49175f05b54bbc972050f87cf",
+        "sha256_in_prefix": "87ebb43b8e60d7954d8eda66002e3bc36eb40ea49175f05b54bbc972050f87cf",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/properties.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f370cae3d5dadfcc3104cc77ccb3cc1ab25aa1c50b0e12ae11f136af45315a51",
+        "sha256_in_prefix": "f370cae3d5dadfcc3104cc77ccb3cc1ab25aa1c50b0e12ae11f136af45315a51",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/protection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cfd5b64e6fbe8e4f164d7b7932cc291ec75e66563f42dc480f42433cdb77731",
+        "sha256_in_prefix": "1cfd5b64e6fbe8e4f164d7b7932cc291ec75e66563f42dc480f42433cdb77731",
+        "size_in_bytes": 4222
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/smart_tags.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bd9047ef078bab5f57986315290be902604c7e6162a6005186ec89fe3a7af0b",
+        "sha256_in_prefix": "2bd9047ef078bab5f57986315290be902604c7e6162a6005186ec89fe3a7af0b",
+        "size_in_bytes": 1589
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/views.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e3461eef0c856105e927fb570dae7a267f3c34c878ea05ff0430dd1d4604be7",
+        "sha256_in_prefix": "3e3461eef0c856105e927fb570dae7a267f3c34c878ea05ff0430dd1d4604be7",
+        "size_in_bytes": 3147
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/web.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "11fb9f6aae9d0097845f5d0a331330986d39428a0dbc4df2415816133b17a4c9",
+        "sha256_in_prefix": "11fb9f6aae9d0097845f5d0a331330986d39428a0dbc4df2415816133b17a4c9",
+        "size_in_bytes": 2443
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/__pycache__/workbook.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c32ba049ffa5547c06f32f78bf02a8ccdaf1355531796c001acd2921ac850043",
+        "sha256_in_prefix": "c32ba049ffa5547c06f32f78bf02a8ccdaf1355531796c001acd2921ac850043",
+        "size_in_bytes": 13738
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/_writer.py",
+        "path_type": "hardlink",
+        "sha256": "a41e2cd397ab344049153ff0e4b4fed83971a979192cebad5d65607b044b55db",
+        "sha256_in_prefix": "a41e2cd397ab344049153ff0e4b4fed83971a979192cebad5d65607b044b55db",
+        "size_in_bytes": 6506
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/child.py",
+        "path_type": "hardlink",
+        "sha256": "affe55f433641926198738bad8fd74667b0ee624f9d7c628a5c4dd992bed0147",
+        "sha256_in_prefix": "affe55f433641926198738bad8fd74667b0ee624f9d7c628a5c4dd992bed0147",
+        "size_in_bytes": 4052
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/defined_name.py",
+        "path_type": "hardlink",
+        "sha256": "1001755af198538586eddbac0e2dbdc8102bd79061918b6417f1ab1729b50c36",
+        "sha256_in_prefix": "1001755af198538586eddbac0e2dbdc8102bd79061918b6417f1ab1729b50c36",
+        "size_in_bytes": 5394
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/external_link/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "60e90b236dba9f2a2907a9a84a1cc621f05172475080f8855e3559c175be0e91",
+        "sha256_in_prefix": "60e90b236dba9f2a2907a9a84a1cc621f05172475080f8855e3559c175be0e91",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/external_link/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "07fec55219cd6ed9c6ac8c83e4c2575c87adb4a07e688ac10ae326a918498f6d",
+        "sha256_in_prefix": "07fec55219cd6ed9c6ac8c83e4c2575c87adb4a07e688ac10ae326a918498f6d",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/external_link/__pycache__/external.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f862c7f7cdf74b11bcf52332bb805eae55122969b1066d714c9e70321ecd5824",
+        "sha256_in_prefix": "f862c7f7cdf74b11bcf52332bb805eae55122969b1066d714c9e70321ecd5824",
+        "size_in_bytes": 5057
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/external_link/external.py",
+        "path_type": "hardlink",
+        "sha256": "2d75ee7a3d3e7748919f0949fb5dd2f3591bb83c6f8405a8dea7e7c69b0296f3",
+        "sha256_in_prefix": "2d75ee7a3d3e7748919f0949fb5dd2f3591bb83c6f8405a8dea7e7c69b0296f3",
+        "size_in_bytes": 4509
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/external_reference.py",
+        "path_type": "hardlink",
+        "sha256": "f5b297f7f420349c6fedf1147741bea1c5f265a8cc02c0f31b5d5dd268a0bb16",
+        "sha256_in_prefix": "f5b297f7f420349c6fedf1147741bea1c5f265a8cc02c0f31b5d5dd268a0bb16",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/function_group.py",
+        "path_type": "hardlink",
+        "sha256": "c7941f52915db23b5b15b009cd9a1fed2ad9dfbea7b9f358f769a909c6923e24",
+        "sha256_in_prefix": "c7941f52915db23b5b15b009cd9a1fed2ad9dfbea7b9f358f769a909c6923e24",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/properties.py",
+        "path_type": "hardlink",
+        "sha256": "bcc52b8aeebb890535d71228b37edacafef7823ab591d1e0236ee7709dd5936e",
+        "sha256_in_prefix": "bcc52b8aeebb890535d71228b37edacafef7823ab591d1e0236ee7709dd5936e",
+        "size_in_bytes": 5261
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/protection.py",
+        "path_type": "hardlink",
+        "sha256": "2e18b2ba839c85daee9fdc4cc2afe9c46cdb932b3389385f2a2be4d1d1c738bc",
+        "sha256_in_prefix": "2e18b2ba839c85daee9fdc4cc2afe9c46cdb932b3389385f2a2be4d1d1c738bc",
+        "size_in_bytes": 6008
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/smart_tags.py",
+        "path_type": "hardlink",
+        "sha256": "c471d70ab50f9c7791a0cfde6a4ac23b3f9e0a972ddd8ef12874a1afdc06bfbb",
+        "sha256_in_prefix": "c471d70ab50f9c7791a0cfde6a4ac23b3f9e0a972ddd8ef12874a1afdc06bfbb",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/views.py",
+        "path_type": "hardlink",
+        "sha256": "bb042a642ad16af0280432d9201b60cfbae2384844687a65c9b578717fd33206",
+        "sha256_in_prefix": "bb042a642ad16af0280432d9201b60cfbae2384844687a65c9b578717fd33206",
+        "size_in_bytes": 5214
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/web.py",
+        "path_type": "hardlink",
+        "sha256": "f3b07998467abdf1d3c32c1c1ad7182fabbb0f74722550c22715749c765e4bec",
+        "sha256_in_prefix": "f3b07998467abdf1d3c32c1c1ad7182fabbb0f74722550c22715749c765e4bec",
+        "size_in_bytes": 2642
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/workbook/workbook.py",
+        "path_type": "hardlink",
+        "sha256": "a1a12bbd21f5a94a615003ce6530878f6507c8a783aac8f60f270a083720a3b3",
+        "sha256_in_prefix": "a1a12bbd21f5a94a615003ce6530878f6507c8a783aac8f60f270a083720a3b3",
+        "size_in_bytes": 13232
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "sha256_in_prefix": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b60edfd7e79231e200ab7981b30c11ad7b15218f8beba2ea3cbc8d8d226b3994",
+        "sha256_in_prefix": "b60edfd7e79231e200ab7981b30c11ad7b15218f8beba2ea3cbc8d8d226b3994",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/_read_only.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "924c6e9155e8a2bcaa1b0a3709addcb2ab40950d8ad3d197de7c755a4c4673d1",
+        "sha256_in_prefix": "924c6e9155e8a2bcaa1b0a3709addcb2ab40950d8ad3d197de7c755a4c4673d1",
+        "size_in_bytes": 5131
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/_reader.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b476c75d58c9b43e8bec023de9d1d497e57a4c4359f61081751afaeb7768c03",
+        "sha256_in_prefix": "7b476c75d58c9b43e8bec023de9d1d497e57a4c4359f61081751afaeb7768c03",
+        "size_in_bytes": 14051
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/_write_only.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe0cbc46c5ef8546d74e377fdac2e5deeacc26ce80d1b9bd840de041889f1bfd",
+        "sha256_in_prefix": "fe0cbc46c5ef8546d74e377fdac2e5deeacc26ce80d1b9bd840de041889f1bfd",
+        "size_in_bytes": 4110
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/_writer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aeb5258ba4e93797fb14d7a428b86c38117483d0feb5a0a3067b67d9795a1c85",
+        "sha256_in_prefix": "aeb5258ba4e93797fb14d7a428b86c38117483d0feb5a0a3067b67d9795a1c85",
+        "size_in_bytes": 11489
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/cell_range.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "71d772aff0671c2fb07452403f45958cff8a0c585ebdf4d677d824b170b555c5",
+        "sha256_in_prefix": "71d772aff0671c2fb07452403f45958cff8a0c585ebdf4d677d824b170b555c5",
+        "size_in_bytes": 16512
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/cell_watch.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf61002d4b409c7023f83f61512438cee191daa01a04c61ab399122bbb64c59e",
+        "sha256_in_prefix": "bf61002d4b409c7023f83f61512438cee191daa01a04c61ab399122bbb64c59e",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/controls.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e06726f9b76bc7edd18650a53f64fbf6917b9a7f964f230542f8df76ffb341bb",
+        "sha256_in_prefix": "e06726f9b76bc7edd18650a53f64fbf6917b9a7f964f230542f8df76ffb341bb",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/copier.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "25ebfe1b01e8b4d8f288bc59f5b370b0f53e754b6e5f62ed408c7617cbe80834",
+        "sha256_in_prefix": "25ebfe1b01e8b4d8f288bc59f5b370b0f53e754b6e5f62ed408c7617cbe80834",
+        "size_in_bytes": 2268
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/custom.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bbc94fb170499ac9c05f17491fbc5953fdbe516e1f2614175cd59462c2a988c",
+        "sha256_in_prefix": "3bbc94fb170499ac9c05f17491fbc5953fdbe516e1f2614175cd59462c2a988c",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/datavalidation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d66b9842c087aa5feb0f8affa1b35bb9d74e3ff13a15d85ae322a5c29a45970",
+        "sha256_in_prefix": "7d66b9842c087aa5feb0f8affa1b35bb9d74e3ff13a15d85ae322a5c29a45970",
+        "size_in_bytes": 5804
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/dimensions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7eaeab27896592221a6d8b3af20d2a80254836abced3cc3bb0caae981f9f7ff4",
+        "sha256_in_prefix": "7eaeab27896592221a6d8b3af20d2a80254836abced3cc3bb0caae981f9f7ff4",
+        "size_in_bytes": 8179
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/drawing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "15a8dce738d883dbbf340321f87e538a1189e4eab1596d34a61032ee751bc24b",
+        "sha256_in_prefix": "15a8dce738d883dbbf340321f87e538a1189e4eab1596d34a61032ee751bc24b",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/errors.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc889d637ab74b0924209f9cd6313859de4743d9cd78cb318e88a2b0bfc32834",
+        "sha256_in_prefix": "bc889d637ab74b0924209f9cd6313859de4743d9cd78cb318e88a2b0bfc32834",
+        "size_in_bytes": 2346
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/filters.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4ea16ca34662c5214b9d8478cc14dd5f84e1530ef42c3f7c6b9e7ac4781b761",
+        "sha256_in_prefix": "a4ea16ca34662c5214b9d8478cc14dd5f84e1530ef42c3f7c6b9e7ac4781b761",
+        "size_in_bytes": 12443
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/formula.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b359252dfa96db37e39472070374d3e328e2ec5090f3003c0a0b7054d5c78bb",
+        "sha256_in_prefix": "3b359252dfa96db37e39472070374d3e328e2ec5090f3003c0a0b7054d5c78bb",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/header_footer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca32f35e0f44398932dc5ed32191ac82ceb4859e24b35c2f883e340be31f4fdf",
+        "sha256_in_prefix": "ca32f35e0f44398932dc5ed32191ac82ceb4859e24b35c2f883e340be31f4fdf",
+        "size_in_bytes": 7541
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/hyperlink.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "452e9820ab2573203b538d6fa7f664e9f53490a62072df458f6b4ae29fa6eaed",
+        "sha256_in_prefix": "452e9820ab2573203b538d6fa7f664e9f53490a62072df458f6b4ae29fa6eaed",
+        "size_in_bytes": 1354
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/merge.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9eaf6e87ddff6fd2425c92ccea7376f72b24ee1811cf3919adc01460e7933b96",
+        "sha256_in_prefix": "9eaf6e87ddff6fd2425c92ccea7376f72b24ee1811cf3919adc01460e7933b96",
+        "size_in_bytes": 4369
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/ole.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bd7a14497e071753d3516a2fbeaca0147945993a820a5118556bd5c25de78be",
+        "sha256_in_prefix": "1bd7a14497e071753d3516a2fbeaca0147945993a820a5118556bd5c25de78be",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/page.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "db665e498c90a4e1ab2dc36bf517792195184ad3ceae9d9f64076fef88901667",
+        "sha256_in_prefix": "db665e498c90a4e1ab2dc36bf517792195184ad3ceae9d9f64076fef88901667",
+        "size_in_bytes": 4346
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/pagebreak.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "60ab8be693e163231bcc68c2556895589e9962b694eb2ff8fcd61aabe6c19624",
+        "sha256_in_prefix": "60ab8be693e163231bcc68c2556895589e9962b694eb2ff8fcd61aabe6c19624",
+        "size_in_bytes": 2340
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/picture.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b04daf5f18397278d972c00744259e27cceac6ad3856ee7013bb46f236bfe6ec",
+        "sha256_in_prefix": "b04daf5f18397278d972c00744259e27cceac6ad3856ee7013bb46f236bfe6ec",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/print_settings.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c09a052faa5eb458c1150b9b1f7e6dbbda3a9c294788658ef1861e5717c704ce",
+        "sha256_in_prefix": "c09a052faa5eb458c1150b9b1f7e6dbbda3a9c294788658ef1861e5717c704ce",
+        "size_in_bytes": 5806
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/properties.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c75e1d92517e147745aa222affb753b8cdc7904e457ac798dd64d6d9d509b520",
+        "sha256_in_prefix": "c75e1d92517e147745aa222affb753b8cdc7904e457ac798dd64d6d9d509b520",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/protection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c574e009e57bfac34b3c29169bf04a1fdc3287fe86b7d293658946cafa3dfb57",
+        "sha256_in_prefix": "c574e009e57bfac34b3c29169bf04a1fdc3287fe86b7d293658946cafa3dfb57",
+        "size_in_bytes": 3372
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/related.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a04333ad61f57f57cae55530b54a91c1af2f47b4ad42c811e6088530f487fb8",
+        "sha256_in_prefix": "2a04333ad61f57f57cae55530b54a91c1af2f47b4ad42c811e6088530f487fb8",
+        "size_in_bytes": 763
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/scenario.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc0b022142630fb90bec64b56054e777743c2a595156e9b480232660350245bc",
+        "sha256_in_prefix": "bc0b022142630fb90bec64b56054e777743c2a595156e9b480232660350245bc",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/smart_tag.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9447f3d5e7663f144ce380930582511e85daef5663f04d9aebb07ad018b42aea",
+        "sha256_in_prefix": "9447f3d5e7663f144ce380930582511e85daef5663f04d9aebb07ad018b42aea",
+        "size_in_bytes": 1993
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/table.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8eff14e9df620a591c76b662a3664e4962684ac3dd778aed685185fa38d10be0",
+        "sha256_in_prefix": "8eff14e9df620a591c76b662a3664e4962684ac3dd778aed685185fa38d10be0",
+        "size_in_bytes": 10471
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/views.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a23186beffd9a77efa7c47a5a415b6b1f6bf6c69f603dd9aabb142c2acbc2d04",
+        "sha256_in_prefix": "a23186beffd9a77efa7c47a5a415b6b1f6bf6c69f603dd9aabb142c2acbc2d04",
+        "size_in_bytes": 3783
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/__pycache__/worksheet.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7da3f5987915fbc284576f882d31886b6797681078b5b22824926e42342605fa",
+        "sha256_in_prefix": "7da3f5987915fbc284576f882d31886b6797681078b5b22824926e42342605fa",
+        "size_in_bytes": 25555
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/_read_only.py",
+        "path_type": "hardlink",
+        "sha256": "e8a77843eef752824363aeac911272fe4b3ec021cdb6d94686c0f1bc1f7d3ee6",
+        "sha256_in_prefix": "e8a77843eef752824363aeac911272fe4b3ec021cdb6d94686c0f1bc1f7d3ee6",
+        "size_in_bytes": 5709
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/_reader.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "efd5fe92b391fc2e7bed57af36edfeee607356b77022a6719cdc550d10c9bf0a",
+        "sha256_in_prefix": "efd5fe92b391fc2e7bed57af36edfeee607356b77022a6719cdc550d10c9bf0a",
+        "size_in_bytes": 231704
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/_reader.py",
+        "path_type": "hardlink",
+        "sha256": "be9fc3ef0e038800cc77236b62942096b095bd52d3f7f0ec4998a439dfbe9f67",
+        "sha256_in_prefix": "be9fc3ef0e038800cc77236b62942096b095bd52d3f7f0ec4998a439dfbe9f67",
+        "size_in_bytes": 16375
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/_write_only.py",
+        "path_type": "hardlink",
+        "sha256": "caa5be0ed0430d84f018204745523092179207b4922cedf1970f91b17b4fa2b1",
+        "sha256_in_prefix": "caa5be0ed0430d84f018204745523092179207b4922cedf1970f91b17b4fa2b1",
+        "size_in_bytes": 4232
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/_writer.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "4c9816c2efa4bd69a36b5c00ade7c0acf429a1bb5f196cc2765975e11b06cf47",
+        "sha256_in_prefix": "4c9816c2efa4bd69a36b5c00ade7c0acf429a1bb5f196cc2765975e11b06cf47",
+        "size_in_bytes": 194840
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/_writer.py",
+        "path_type": "hardlink",
+        "sha256": "6c3b70e81579b5dced0114049103e9ac4c51afc859545923d03ca896ac55bb69",
+        "sha256_in_prefix": "6c3b70e81579b5dced0114049103e9ac4c51afc859545923d03ca896ac55bb69",
+        "size_in_bytes": 10283
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/cell_range.py",
+        "path_type": "hardlink",
+        "sha256": "60ff00527a9414fe70395fdabcc0c5452674422da9efc45616ec32c82b9aee6f",
+        "sha256_in_prefix": "60ff00527a9414fe70395fdabcc0c5452674422da9efc45616ec32c82b9aee6f",
+        "size_in_bytes": 15013
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/cell_watch.py",
+        "path_type": "hardlink",
+        "sha256": "2ddc467139976d9e2cc66ea29dab058193e57758a374be7f383494befcf5dc35",
+        "sha256_in_prefix": "2ddc467139976d9e2cc66ea29dab058193e57758a374be7f383494befcf5dc35",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/controls.py",
+        "path_type": "hardlink",
+        "sha256": "14f2e0e0df784fe20bdbb34b83c2defd4e166034ffe806b6e4b0c6fe48840d50",
+        "sha256_in_prefix": "14f2e0e0df784fe20bdbb34b83c2defd4e166034ffe806b6e4b0c6fe48840d50",
+        "size_in_bytes": 2735
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/copier.py",
+        "path_type": "hardlink",
+        "sha256": "d038b5a9292cd20ec9b609a973f336d0ef8a3c25bcd58af69b20b98f8e7c9f25",
+        "sha256_in_prefix": "d038b5a9292cd20ec9b609a973f336d0ef8a3c25bcd58af69b20b98f8e7c9f25",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/custom.py",
+        "path_type": "hardlink",
+        "sha256": "091950f7c1b0aaa2a610392ff203d409ad00a4d336573f812ecffe44cbb78cb0",
+        "sha256_in_prefix": "091950f7c1b0aaa2a610392ff203d409ad00a4d336573f812ecffe44cbb78cb0",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/datavalidation.py",
+        "path_type": "hardlink",
+        "sha256": "9be3bb34ea130ebfdb01fc41f7111e63942db458ae3edcecf88140945d23e051",
+        "sha256_in_prefix": "9be3bb34ea130ebfdb01fc41f7111e63942db458ae3edcecf88140945d23e051",
+        "size_in_bytes": 6131
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/dimensions.py",
+        "path_type": "hardlink",
+        "sha256": "1f333bec5ad88b18900c2ba0453f82f59a4aabb18d15a19c8714fbdd4e1c8ac6",
+        "sha256_in_prefix": "1f333bec5ad88b18900c2ba0453f82f59a4aabb18d15a19c8714fbdd4e1c8ac6",
+        "size_in_bytes": 9102
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/drawing.py",
+        "path_type": "hardlink",
+        "sha256": "da77eb2f24d7d24022ccf208345d762b00d6f664676aaf21b3e36b481716a661",
+        "sha256_in_prefix": "da77eb2f24d7d24022ccf208345d762b00d6f664676aaf21b3e36b481716a661",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/errors.py",
+        "path_type": "hardlink",
+        "sha256": "2a4142e1b9dc92f0a9ef85ec55703b2540a2e0c22298416edee01d75c4298e8d",
+        "sha256_in_prefix": "2a4142e1b9dc92f0a9ef85ec55703b2540a2e0c22298416edee01d75c4298e8d",
+        "size_in_bytes": 2435
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/filters.py",
+        "path_type": "hardlink",
+        "sha256": "f1e523d8bb8ff106f3d51d6090ad5ce96fd4292f3efffe9794531592e9c8b9ad",
+        "sha256_in_prefix": "f1e523d8bb8ff106f3d51d6090ad5ce96fd4292f3efffe9794531592e9c8b9ad",
+        "size_in_bytes": 13854
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/formula.py",
+        "path_type": "hardlink",
+        "sha256": "e72bae97ab3597e2bfefc2971c2e87ac5fe92e1c72a6895d8798cc83bce69726",
+        "sha256_in_prefix": "e72bae97ab3597e2bfefc2971c2e87ac5fe92e1c72a6895d8798cc83bce69726",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/header_footer.py",
+        "path_type": "hardlink",
+        "sha256": "f7517a3540d4130ae181e5abc46f57b433f23c3d375c0b4653f38d0699007d47",
+        "sha256_in_prefix": "f7517a3540d4130ae181e5abc46f57b433f23c3d375c0b4653f38d0699007d47",
+        "size_in_bytes": 7886
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/hyperlink.py",
+        "path_type": "hardlink",
+        "sha256": "b17ccf9248e5f4158dcc2c70c0411a492e77277ee32173e69e7103fa3f0c201a",
+        "sha256_in_prefix": "b17ccf9248e5f4158dcc2c70c0411a492e77277ee32173e69e7103fa3f0c201a",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/merge.py",
+        "path_type": "hardlink",
+        "sha256": "80d3881fa109f3055c26989b02fe0231ced4a43eff0eb1af81a092bc6da29b90",
+        "sha256_in_prefix": "80d3881fa109f3055c26989b02fe0231ced4a43eff0eb1af81a092bc6da29b90",
+        "size_in_bytes": 4125
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/ole.py",
+        "path_type": "hardlink",
+        "sha256": "92156fa8cb7818f73d62beb084b0df914a39d5ebb22d77c97b5a78cc579ee27a",
+        "sha256_in_prefix": "92156fa8cb7818f73d62beb084b0df914a39d5ebb22d77c97b5a78cc579ee27a",
+        "size_in_bytes": 3530
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/page.py",
+        "path_type": "hardlink",
+        "sha256": "e2379245c0c4d12d913f3200980dc187eb97472ab48676cee61e6925d1876db4",
+        "sha256_in_prefix": "e2379245c0c4d12d913f3200980dc187eb97472ab48676cee61e6925d1876db4",
+        "size_in_bytes": 4901
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/pagebreak.py",
+        "path_type": "hardlink",
+        "sha256": "5d714830e63855d3d009df3a9c63e0840ea139f2c62b91bf285baf8c134f46cc",
+        "sha256_in_prefix": "5d714830e63855d3d009df3a9c63e0840ea139f2c62b91bf285baf8c134f46cc",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/picture.py",
+        "path_type": "hardlink",
+        "sha256": "ef64dcb42c73936254f2e15f8e211b4c1b9f11ee5e4312227923c146153a9b54",
+        "sha256_in_prefix": "ef64dcb42c73936254f2e15f8e211b4c1b9f11ee5e4312227923c146153a9b54",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/print_settings.py",
+        "path_type": "hardlink",
+        "sha256": "93f8387e4aecf5b7f3f92f9120a2011aacd582e6ee7cc76bc964377a35d0a112",
+        "sha256_in_prefix": "93f8387e4aecf5b7f3f92f9120a2011aacd582e6ee7cc76bc964377a35d0a112",
+        "size_in_bytes": 5215
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/properties.py",
+        "path_type": "hardlink",
+        "sha256": "f625d33950bc07d0beda9a7f894e65d2be458dfdd4cefd1220e50a46b676870e",
+        "sha256_in_prefix": "f625d33950bc07d0beda9a7f894e65d2be458dfdd4cefd1220e50a46b676870e",
+        "size_in_bytes": 3087
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/protection.py",
+        "path_type": "hardlink",
+        "sha256": "be3e4ce96582e712a21de592fed26a5f1ae53891c9ec6a56d8974fc3bafd8e31",
+        "sha256_in_prefix": "be3e4ce96582e712a21de592fed26a5f1ae53891c9ec6a56d8974fc3bafd8e31",
+        "size_in_bytes": 3758
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/related.py",
+        "path_type": "hardlink",
+        "sha256": "64b0e981cad6e835a5f2fbe1dac49507faf52721bc6c2f0489c0812a37ecb13b",
+        "sha256_in_prefix": "64b0e981cad6e835a5f2fbe1dac49507faf52721bc6c2f0489c0812a37ecb13b",
+        "size_in_bytes": 335
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/scenario.py",
+        "path_type": "hardlink",
+        "sha256": "565256e298b5393cb5709f66ed9c5acc8cbc3d2968d7b046a675188b198da2d4",
+        "sha256_in_prefix": "565256e298b5393cb5709f66ed9c5acc8cbc3d2968d7b046a675188b198da2d4",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/smart_tag.py",
+        "path_type": "hardlink",
+        "sha256": "9cb6edd3822a78996593b4e6352d5e4cd75bece9f98cc7f79657f2cb7a2d0d29",
+        "sha256_in_prefix": "9cb6edd3822a78996593b4e6352d5e4cd75bece9f98cc7f79657f2cb7a2d0d29",
+        "size_in_bytes": 1608
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/table.py",
+        "path_type": "hardlink",
+        "sha256": "823b7e8cd3fc761572f30e60fa0309a5f1cef9e575128c49cbdd728bee471bae",
+        "sha256_in_prefix": "823b7e8cd3fc761572f30e60fa0309a5f1cef9e575128c49cbdd728bee471bae",
+        "size_in_bytes": 11671
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/views.py",
+        "path_type": "hardlink",
+        "sha256": "0e465ca6dc296e99251c82d296f2be6b62e627b0566f5c1b0dccf625597be34e",
+        "sha256_in_prefix": "0e465ca6dc296e99251c82d296f2be6b62e627b0566f5c1b0dccf625597be34e",
+        "size_in_bytes": 4974
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/worksheet/worksheet.py",
+        "path_type": "hardlink",
+        "sha256": "e09339aa3a09ba6b5ca9fb471648a6b45110af3ec4d830665e7915a3b477597f",
+        "sha256_in_prefix": "e09339aa3a09ba6b5ca9fb471648a6b45110af3ec4d830665e7915a3b477597f",
+        "size_in_bytes": 27572
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/writer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "sha256_in_prefix": "735dbef6430f5a551d8f04a864fb05a66796f0a5571f41c21a93b776509356a2",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/writer/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5734b0a6c114b027fa185bd7fbea758b5e017470ad29ac97591dbc140d13913d",
+        "sha256_in_prefix": "5734b0a6c114b027fa185bd7fbea758b5e017470ad29ac97591dbc140d13913d",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/writer/__pycache__/excel.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "353945ccc33afc0cf0f0fbc74feb7ed1d6eb6e48c9942449ce23e71364c375cf",
+        "sha256_in_prefix": "353945ccc33afc0cf0f0fbc74feb7ed1d6eb6e48c9942449ce23e71364c375cf",
+        "size_in_bytes": 8097
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/writer/__pycache__/theme.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "534f45e22da124fe6f7a99acc0848a75a0bd0b942e2d5577089acb7a3e26ebd8",
+        "sha256_in_prefix": "534f45e22da124fe6f7a99acc0848a75a0bd0b942e2d5577089acb7a3e26ebd8",
+        "size_in_bytes": 10486
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/writer/excel.py",
+        "path_type": "hardlink",
+        "sha256": "ea2a179f78521c72149e45b6c02c8180f0380a770ee855cbe72192033b2aa7a6",
+        "sha256_in_prefix": "ea2a179f78521c72149e45b6c02c8180f0380a770ee855cbe72192033b2aa7a6",
+        "size_in_bytes": 9572
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/writer/theme.py",
+        "path_type": "hardlink",
+        "sha256": "e4786afb4b8fe79b1ffd9870ee2dccf5acc27c28c02d0c68a3b095ffd40f9930",
+        "sha256_in_prefix": "e4786afb4b8fe79b1ffd9870ee2dccf5acc27c28c02d0c68a3b095ffd40f9930",
+        "size_in_bytes": 10320
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/xml/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0392a3d065a4e5723ecc9c5b00be6f229a55fc08041cb46f786bbc44ae5ced4d",
+        "sha256_in_prefix": "0392a3d065a4e5723ecc9c5b00be6f229a55fc08041cb46f786bbc44ae5ced4d",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/xml/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "14f898333579f3304f8b4aae7c5e17ab588ef0408b072e5e52c1f4a5647df2a5",
+        "sha256_in_prefix": "14f898333579f3304f8b4aae7c5e17ab588ef0408b072e5e52c1f4a5647df2a5",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/xml/__pycache__/constants.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "815f75ea12d1f1dfc99b6cf656f08e9b1dc0790f6d4d3795a6fbec19807c15ac",
+        "sha256_in_prefix": "815f75ea12d1f1dfc99b6cf656f08e9b1dc0790f6d4d3795a6fbec19807c15ac",
+        "size_in_bytes": 4388
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/xml/__pycache__/functions.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "541e863a408128610122f197ee2a76766e017bde36d78d8b25f0097cb687a19c",
+        "sha256_in_prefix": "541e863a408128610122f197ee2a76766e017bde36d78d8b25f0097cb687a19c",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/xml/constants.py",
+        "path_type": "hardlink",
+        "sha256": "1c336785c8fe58ef5ac8ee0cab071adc0bb465335fb03a960ed95e444b3f5ada",
+        "sha256_in_prefix": "1c336785c8fe58ef5ac8ee0cab071adc0bb465335fb03a960ed95e444b3f5ada",
+        "size_in_bytes": 4833
+      },
+      {
+        "_path": "Lib/site-packages/openpyxl/xml/functions.py",
+        "path_type": "hardlink",
+        "sha256": "8c1b5f6bcfffc388019443c61cb18202d26268d28fca28532ec7e68a0caadbf4",
+        "sha256_in_prefix": "8c1b5f6bcfffc388019443c61cb18202d26268d28fca28532ec7e68a0caadbf4",
+        "size_in_bytes": 2025
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "openpyxl",
+  "sha256": "d680c80c270aa3264880ed0d14c0390f85896aedb10119bb5b4825c75e0ef810",
+  "size": 584955,
+  "subdir": "win-64",
+  "timestamp": 1721753344371,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/openpyxl-3.1.5-py310h827c3e9_0.conda",
+  "version": "3.1.5"
+}

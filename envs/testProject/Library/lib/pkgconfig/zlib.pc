@@ -1,0 +1,13 @@
+prefix=E:/PythonWorks/testProject/envs/testProject/Library
+exec_prefix=E:/PythonWorks/testProject/envs/testProject/Library
+libdir=E:/PythonWorks/testProject/envs/testProject/Library/lib
+sharedlibdir=E:/PythonWorks/testProject/envs/testProject/Library/lib
+includedir=E:/PythonWorks/testProject/envs/testProject/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
